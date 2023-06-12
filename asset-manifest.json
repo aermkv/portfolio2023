@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio2023/static/css/main.7b0e19b8.css",
-    "main.js": "/portfolio2023/static/js/main.f0928a3b.js",
+    "main.css": "/portfolio2023/static/css/main.fb11f5f9.css",
+    "main.js": "/portfolio2023/static/js/main.9137dfdd.js",
     "static/media/Gif3.gif": "/portfolio2023/static/media/Gif3.93a2c70a27c6fbe05f6e.gif",
     "static/media/IMRecording.mp4": "/portfolio2023/static/media/IMRecording.773556722bf13e84ec78.mp4",
     "static/media/Gif2.gif": "/portfolio2023/static/media/Gif2.708ceef0fbb607f876ae.gif",
@@ -60,11 +60,11 @@
     "static/media/FXLogo.png": "/portfolio2023/static/media/FXLogo.e6179845db4fcd0fcbab.png",
     "static/media/FXDesktop.png": "/portfolio2023/static/media/FXDesktop.6b18b93b89845745a55f.png",
     "index.html": "/portfolio2023/index.html",
-    "main.7b0e19b8.css.map": "/portfolio2023/static/css/main.7b0e19b8.css.map",
-    "main.f0928a3b.js.map": "/portfolio2023/static/js/main.f0928a3b.js.map"
+    "main.fb11f5f9.css.map": "/portfolio2023/static/css/main.fb11f5f9.css.map",
+    "main.9137dfdd.js.map": "/portfolio2023/static/js/main.9137dfdd.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b0e19b8.css",
-    "static/js/main.f0928a3b.js"
+    "static/css/main.fb11f5f9.css",
+    "static/js/main.9137dfdd.js"
   ]
 }

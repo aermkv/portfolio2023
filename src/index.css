@@ -1,13 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.google.com/specimen/Martian+Mono?category=Monospace');
+@import url('https://fonts.google.com/specimen/Josefin+Sans?category=Sans+Serif');
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #FFFFFF;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ul, li, h1, h2, h3, h4, p, span {
+  list-style-type: none;
+  font-family: 'Shippori Antique B1', sans-serif;
 }
+
+div {
+  list-style-type: none;
+}
+
+.CustomLink {
+  font-family: 'Shippori Antique B1', sans-serif;
+  list-style-type: none;
+}
+
+

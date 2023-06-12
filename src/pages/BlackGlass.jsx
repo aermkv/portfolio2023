@@ -8,12 +8,15 @@ import BGP3 from '../assets/images/BGP3.png'
 import BGGrid1 from '../assets/images/BGGrid1.jpg'
 import BGGrid2 from '../assets/images/BGGrid2.jpg'
 import BGGrid3 from '../assets/images/BGGrid3.jpg'
+import BackArrow from '../assets/images/BackArrow.png'
 
 function BlackGlass() {
   return (
     <div>
         <CustomLink to='/'>
-            <div className='fixed mr-4 px-4 bg-gray-300 h-screen w-8 hover:bg-gray-500 duration-300'></div>
+            <div className='fixed mr-4 px-4 border-r-solid border-r-2 border-r-black h-screen w-8 hover:bg-black duration-300'>
+                <img className='fixed left-0 top-6 -ml-3 px-4 h-[1.6rem] w-[3.4rem]' src={BackArrow} />
+            </div>
         </CustomLink>
     <div className='w-full max-w-[1240px] mx-auto ml-4 px-12 md:px-16 lg:px-20 py-16'>
 
@@ -76,6 +79,14 @@ function BlackGlass() {
             <div className='flex flex-col w-full md:col-span-3'>
                 <img className='drop-shadow-xl rounded-sm hover:drop-shadow-2xl duration-300' src={BGBranding} alt='Black glass Home Page' />
             </div>
+        </div>
+
+        <div className='py-12 mx-auto grid md:grid-cols-3 gap-8'>
+            <CustomLink to='/'>
+                <div className='md:col-span-2 text-justify border-black border-2 hover:text-white hover:bg-black duration-300'>
+                    <p className='mx-2 my-2 text-sm lg:text-xl'>return to home</p>
+                </div>
+            </CustomLink>
         </div>
 
     </div>

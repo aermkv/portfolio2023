@@ -18,6 +18,7 @@ import CNYCSocial from '../assets/images/CNYCSocial.png'
 import CNYCIcons from '../assets/images/CNYCIcons.png'
 import PlayNStayLogos from '../assets/images/PlayNStayLogos.png'
 import BrainBowls from '../assets/images/BrainBowls.gif'
+import BackArrow from '../assets/images/BackArrow.png'
 
 import { Link, useMatch, useResolvedPath } from 'react-router-dom'
 
@@ -26,7 +27,9 @@ function Misc() {
     <div>
 
         <CustomLink to='/'>
-            <div className='fixed mr-4 px-4 bg-gray-300 h-screen w-8 hover:bg-gray-500 duration-300'></div>
+            <div className='fixed mr-4 px-4 border-r-solid border-r-2 border-r-black h-screen w-8 hover:bg-black duration-300'>
+                <img className='fixed left-0 top-6 -ml-3 px-4 h-[1.6rem] w-[3.4rem]' src={BackArrow} />
+            </div>
         </CustomLink>
 
         <div className='w-full max-w-[1240px] mx-auto ml-4 px-12 md:px-16 lg:px-20 py-16'>
@@ -168,6 +171,14 @@ function Misc() {
                     <img className='drop-shadow-md rounded-md hover:drop-shadow-lg duration-300' src={PlayNStayLogos} alt='Misc Packaging 1' />
                     <p className='pt-4 text-xs lg:text-sm text-zinc-600'>Explorations of new Play N Stay logo.</p>
                 </div>
+            </div>
+
+            <div className='py-12 mx-auto grid md:grid-cols-3 gap-8'>
+            <CustomLink to='/'>
+                <div className='md:col-span-2 text-justify border-black border-2 hover:text-white hover:bg-black duration-300'>
+                    <p className='mx-2 my-2 text-sm lg:text-xl'>return to home</p>
+                </div>
+            </CustomLink>
             </div>
 
         </div>

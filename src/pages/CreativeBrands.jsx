@@ -25,7 +25,7 @@ function CreativeBrands() {
         <div className='py-8 mx-auto grid md:grid-cols-3 gap-8'>
             <div className='md:col-span-2 text-justify'>
                 <h2 className='pt-4 text-3xl lg:text-4xl font-semibold'>Creative Brands</h2>
-                <p className='py-4 pt-8 text-sm lg:text-xl'>I was a senior packaging designer at Creative Brands LLC, a license holder for Brookstone, Sealy, Bell & Howell, and others.</p>
+                <p className='py-4 pt-8 text-sm lg:text-xl'>I was a senior packaging designer at Creative Brands LLC, a license holder for Goodyear, Brookstone, Sealy, Bell & Howell, and others.</p>
                 <p className='text-sm lg:text-xl'>As the senior designer I worked on branding updates for product lines, determined the overarching scheme for a series, planned retail displays, and created pitch decks for sales. I ensured that the other designers were producing consistent high-quality worked that conformed to guidelines, whether established in-house or by license.</p>
             </div>
         </div>

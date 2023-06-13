@@ -219,7 +219,14 @@ function sketch(p) {
       let ballAdj3 = fromBall3 < limit2 ?  this.p.map(fromBall3,limit2,0,1,2.5) : 1;
       let ballAdj4 = fromBall4 < limit2 ?  this.p.map(fromBall4,limit2,0,1,2.5) : 1;
 
-      let totalAdj = (ballAdj * ballAdj2 * ballAdj3 * ballAdj4) > 3.4 ? 3.4 : ballAdj * ballAdj2 * ballAdj3 * ballAdj4;
+      let baseSize = 2.6;
+      let maxMult = 3.4;
+      if (p.width < 640) {
+        baseSize = 1.2
+        maxMult = 5
+      }
+
+      let totalAdj = (ballAdj * ballAdj2 * ballAdj3 * ballAdj4) > maxMult ? maxMult : ballAdj * ballAdj2 * ballAdj3 * ballAdj4;
       // let sizeAdj = fromMouse < 150 ? this.p.map(fromMouse,150,0,0,-.125) : 0;
 
       // let fromDot = p.dist(this.x,this.y,ballX,ballY);
@@ -228,7 +235,7 @@ function sketch(p) {
       // let lerpVal = fromMouse < limit ? 0 : p.map(fromMouse,limit,0,0,1);
       // this.col = p.lerpColor(this.baseCol,this.highlight,lerpVal);
 
-      this.size = fromMouse < limit ? this.p.map(fromMouse,limit,0,2.6,.5) * totalAdj : 2.6 * totalAdj;
+      this.size = fromMouse < limit ? this.p.map(fromMouse,limit,0,baseSize,baseSize/5) * totalAdj : baseSize * totalAdj;
     }
   
     run() {

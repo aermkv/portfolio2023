@@ -145,7 +145,7 @@ function DoodleLabs() {
         <div className='py-4 mx-auto grid md:grid-cols-3 gap-8'>
             <div className='md:col-span-2 text-justify'>
                 <p className='text-sm lg:text-xl'>Putting together an NFT drop is a lengthy process and involves going through the whole product development cycle. Beginning with understanding the artist's vision and how it fits into the constraints of the generative medium, I try to identify viable product options and compare them with relevant existing projects and their market performance.</p>
-                <p className='text-sm lg:text-xl'>After viable avenues for translating the art into code are identified, I would work with the artists to create a script that they feel represents their art well. Along the way, I would test the product and create marketing materials for the planned drop.</p>
+                <p className='pt-8 text-sm lg:text-xl'>After viable avenues for translating the art into code are identified, I would work with the artists to create a script that they feel represents their art well. Along the way, I would test the product and create marketing materials for the planned drop.</p>
             </div>
         </div>
 

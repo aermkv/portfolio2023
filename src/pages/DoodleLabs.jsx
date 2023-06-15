@@ -122,8 +122,8 @@ function DoodleLabs() {
             <div className='flex flex-col w-full'>
                 <a href='https://deciphers.doodlelabs.io/'>
                 <h4 className='py-4 font-medium'>Industrial Melanism</h4>
-                {/* <video className='rounded-sm drop-shadow-md hover:drop-shadow-xl duration-300' src={IMRecording} autoPlay loop muted /> */}
-                <iframe className='aspect-square rounded-sm border drop-shadow-md hover:drop-shadow-xl duration-300' src='https://generator.artblocks.io/0x28f2d3805652fb5d359486dffb7d08320d403240/5000794' />
+                <video className='rounded-sm drop-shadow-md hover:drop-shadow-xl duration-300' src={IMRecording} autoPlay loop muted />
+                {/* <iframe className='aspect-square rounded-sm border drop-shadow-md hover:drop-shadow-xl duration-300' src='https://generator.artblocks.io/0x28f2d3805652fb5d359486dffb7d08320d403240/5000794' /> */}
                 <p className='py-4 text-sm lg:text-lg'>An extension of Neil Grayson's successful paintings done in oil and metals. Interactivity was introduced to simulate the physical properties of the art in the digital rendering.</p>
                 </a>
             </div>
@@ -145,6 +145,7 @@ function DoodleLabs() {
         <div className='py-4 mx-auto grid md:grid-cols-3 gap-8'>
             <div className='md:col-span-2 text-justify'>
                 <p className='text-sm lg:text-xl'>Putting together an NFT drop is a lengthy process and involves going through the whole product development cycle. Beginning with understanding the artist's vision and how it fits into the constraints of the generative medium, I try to identify viable product options and compare them with relevant existing projects and their market performance.</p>
+                <p className='text-sm lg:text-xl'>After viable avenues for translating the art into code are identified, I would work with the artists to create a script that they feel represents their art well. Along the way, I would test the product and create marketing materials for the planned drop.</p>
             </div>
         </div>
 

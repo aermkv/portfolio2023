@@ -122,8 +122,8 @@ function DoodleLabs() {
             <div className='flex flex-col w-full'>
                 <a href='https://deciphers.doodlelabs.io/'>
                 <h4 className='py-4 font-medium'>Industrial Melanism</h4>
-                <video className='rounded-sm drop-shadow-md hover:drop-shadow-xl duration-300' src={IMRecording} autoPlay loop muted />
-                {/* <iframe className='aspect-square rounded-sm border drop-shadow-md hover:drop-shadow-xl duration-300' src='https://generator.artblocks.io/0x28f2d3805652fb5d359486dffb7d08320d403240/5000794' /> */}
+                {/* <video className='rounded-sm drop-shadow-md hover:drop-shadow-xl duration-300' src={IMRecording} autoPlay loop muted /> */}
+                <iframe className='aspect-square rounded-sm border drop-shadow-md hover:drop-shadow-xl duration-300' src='https://generator.artblocks.io/0x28f2d3805652fb5d359486dffb7d08320d403240/5000794' />
                 <p className='py-4 text-sm lg:text-lg'>An extension of Neil Grayson's successful paintings done in oil and metals. Interactivity was introduced to simulate the physical properties of the art in the digital rendering.</p>
                 </a>
             </div>

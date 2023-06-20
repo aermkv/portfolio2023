@@ -120,7 +120,7 @@ function DoodleLabs() {
         </div>
         <div className='py-8 pt-8 mx-auto grid grid-cols-1 md:grid-cols-3 gap-8'>
             <div className='flex flex-col w-full'>
-                <a href='https://deciphers.doodlelabs.io/'>
+                <a target="_blank" href='https://industrialmelanism.doodlelabs.io/'>
                 <h4 className='py-4 font-medium'>Industrial Melanism</h4>
                 <video className='rounded-sm drop-shadow-md hover:drop-shadow-xl duration-300' src={IMRecording} autoPlay loop muted />
                 {/* <iframe className='aspect-square rounded-sm border drop-shadow-md hover:drop-shadow-xl duration-300' src='https://generator.artblocks.io/0x28f2d3805652fb5d359486dffb7d08320d403240/5000794' /> */}
@@ -128,14 +128,14 @@ function DoodleLabs() {
                 </a>
             </div>
             <div className='flex flex-col w-full'>
-                <a href='https://deciphers.doodlelabs.io/'>
+                <a target="_blank" href='https://deciphers.doodlelabs.io/'>
                 <h4 className='py-4 font-medium'>DeCiphers</h4>
                 <img className='rounded-sm drop-shadow-md hover:drop-shadow-xl duration-300' src={Deciphers} />
                 <p className='py-4 text-sm lg:text-lg'>Based on her 'Ciphers' series, Irene Mamiye's introduction into on-chain generative art was a work of layered transparency, pattern, and geometry.</p>
                 </a>
             </div>
             <div className='flex flex-col w-full'>
-                <a href='https://vistas.doodlelabs.io/'>
+                <a target="_blank" href='https://vistas.doodlelabs.io/'>
                 <h4 className='py-4 font-medium'>Vistas</h4>
                 <img className='rounded-sm border drop-shadow-md hover:drop-shadow-xl duration-300' src={Vistas} />
                 <p className='py-4 text-sm lg:text-lg'>My own oil paintings translated into millions of simple shapes and lines that intersect and interact to create unique digital paintings.</p>

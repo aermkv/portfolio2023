@@ -47,7 +47,7 @@ function Framexpert() {
 
         <div className='py-8 pt-0 mx-auto grid md:grid-cols-3 gap-8'>
           <div className='md:col-span-2 text-justify'>
-            <p className='py-4 pt-8 text-sm lg:text-xl'>Branding was updated several times over the course of my involvement with Framepert and MayCAD.</p>
+            <p className='py-4 pt-8 text-sm lg:text-xl'>Branding was updated several times over the course of my involvement with Framexpert and MayCAD.</p>
           </div>
         </div>
 

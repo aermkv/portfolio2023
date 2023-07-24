@@ -11,6 +11,12 @@ import Deciphers from '../assets/images/4000944.png'
 import Vistas from '../assets/images/6000024.png'
 import IMRecording from '../assets/images/IMRecording.mp4'
 import BackArrow from '../assets/images/BackArrow.png'
+import ProfileEarly from '../assets/images/ProfileEarly.png'
+import ProfileActual from '../assets/images/ProfileActual.png'
+import PoapP1 from '../assets/images/PoapP1.png'
+import PoapP2 from '../assets/images/PoapP2.png'
+import DLExpoStand from '../assets/images/DLExpoStand.png'
+import DLTweet from '../assets/images/DLTweet.mp4'
 
 import { Link, useMatch, useResolvedPath } from 'react-router-dom'
 
@@ -54,7 +60,7 @@ function DoodleLabs() {
         </div>
 
         <div className='py-4'>
-            <div className='rounded-md border-4 border-blue-100'></div>
+            <div className='rounded-md border-2 border-black'></div>
         </div>
 
         <div className='py-8 mx-auto grid md:grid-cols-3 gap-8'>
@@ -66,15 +72,59 @@ function DoodleLabs() {
             <div className='flex flex-col text-sm lg:text-xl md:col-span-2'>
                 <video src={GIF} type="video/mp4" autoPlay loop className='drop-shadow-xl rounded-md hover:drop-shadow-2xl duration-300' />
             </div>
-            <div className='flex flex-col w-full mt-0 md:mt-24 md:col-span-1'>
+            <div className='flex flex-col w-full mt-0 lg:mt-24 lg:col-span-1'>
                 {/* <p className='text-sm lg:text-xl'>As we were populating our platform with the first few projects, we had to review existing pages and develop new ones to accommodate user needs. A major hurdle was offering collectors various ways to view projects and collections, to sort through them, to edit their profile, order prints, etc. while keeping the site intuitively easy to use and visually uncluttered.</p> */}
-                <p className=' text-sm lg:text-xl'>We were designing around a young platfrom with only a couple of projects to present, but had to keep in mind future projects that may have different features.</p>
-                <p className=' pt-4 text-sm lg:text-xl'>Another important consideration was accounting for users who collected one or two tokens as well as those who collected dozens. Some users would buy into every collection, while others might only be interested in one specific series. We had to find ways to universalize the experience.</p>
+                <p className='font-medium mb-4 text-sm lg:text-base'>We were designing around a young platfrom with only a couple of projects to present, but had to keep in mind future projects that may have different features.</p>
+                <p className='pt-4 font-medium mb-4 text-sm lg:text-base'>Another important consideration was accounting for users who collected one or two tokens as well as those who collected dozens. Some users would buy into every collection, while others might only be interested in one specific series. We had to find ways to universalize the experience.</p>
+            </div>
+        </div>
+
+        {/* <div className='py-8 justify-left'>
+            <div className='flex flex-cols-2'>
+                <div className=''>
+                    <img className='drop-shadow-xl rounded-md hover:drop-shadow-2xl duration-300' src={ProfileEarly} alt='Doodle Labs Home Page' />
+                    <p className='pt-4 text-xs lg:text-sm text-zinc-600'>Initial prototype for profile modal.</p>
+                </div>
+                <div className=''>
+                    <img className='drop-shadow-xl rounded-md hover:drop-shadow-2xl duration-300' src={ProfileActual} alt='Doodle Labs Home Page' />
+                    <p className='pt-4 text-xs lg:text-sm text-zinc-600'>Simplified and universalized final profile modal.</p>
+                </div>
+            </div>
+        </div> */}
+
+        <div className='py-4'>
+            <div className='rounded-md border-2 border-black'></div>
+        </div>
+
+        <div className='py-4 pt-8 mx-auto grid md:grid-cols-3 gap-8'>
+            <div className='md:col-span-2 text-justify'>
+                <p className='text-sm lg:text-xl'>Lots of opportunities came up for branding in different formats.</p>
+            </div>
+        </div>
+
+        <div className='py-8 mx-auto grid lg:grid-cols-2 gap-3'>
+            <div className='' >
+                <img className='drop-shadow-xl rounded-md hover:drop-shadow-2xl duration-300' src={PoapP1} alt='Doodle Labs Home Page' />
+            </div>
+            <div className='' >
+                <img className='drop-shadow-xl rounded-md hover:drop-shadow-2xl duration-300' src={PoapP2} alt='Doodle Labs Home Page' />
+            </div>
+            <p className='pt-4 text-xs lg:text-sm text-zinc-600'>Prototyping POAP (Proof of Attendance Protocol) art.</p>
+        </div>
+
+        <div className='py-8 mx-auto grid lg:grid-cols-2 gap-3'>
+            <div className='' >
+                <img className='drop-shadow-xl rounded-md hover:drop-shadow-2xl duration-300' src={DLExpoStand} alt='Doodle Labs Home Page' />
+                <p className='pt-4 text-xs lg:text-sm text-zinc-600'>Mockup for an exhibition stand.</p>
+            </div>
+            <div className='' >
+                <video className='rounded-sm drop-shadow-md hover:drop-shadow-xl duration-300' src={DLTweet} autoPlay loop muted />
+                <p className='pt-4 text-xs lg:text-sm text-zinc-600'>Dynamic tweet template.</p>
             </div>
         </div>
 
         <div className='py-4'>
-            <div className='rounded-md border-4 border-blue-100'></div>
+            <div className='rounded-md border-2 border-black'></div>
         </div>
 
         <div className='py-8 mx-auto grid md:grid-cols-3 gap-8'>
@@ -96,7 +146,7 @@ function DoodleLabs() {
         </div>
 
         <div className='py-4'>
-            <div className='rounded-md border-4 border-blue-100'></div>
+            <div className='rounded-md border-2 border-black'></div>
         </div>
 
         <div className='py-8 mx-auto grid grid-cols-1 md:grid-cols-3 gap-8'>
@@ -109,7 +159,7 @@ function DoodleLabs() {
         </div>
 
         <div className='py-4'>
-            <div className='rounded-md border-4 border-blue-100'></div>
+            <div className='rounded-md border-2 border-black'></div>
         </div>
 
         <div className='py-8 mx-auto grid md:grid-cols-3 gap-8'>

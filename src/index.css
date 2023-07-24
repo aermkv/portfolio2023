@@ -23,4 +23,12 @@ div {
   list-style-type: none;
 }
 
+.notdisplayed {
+  display: none;
+}
+
+.displayed {
+  display: flex;
+  margin: auto;
+}
 

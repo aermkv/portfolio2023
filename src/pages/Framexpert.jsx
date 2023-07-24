@@ -42,7 +42,7 @@ function Framexpert() {
         </div>
 
         <div className='py-4'>
-          <div className='rounded-md border-4 border-blue-100'></div>
+          <div className='rounded-md border-2 border-black'></div>
         </div>
 
         <div className='py-8 pt-0 mx-auto grid md:grid-cols-3 gap-8'>
@@ -60,7 +60,7 @@ function Framexpert() {
         <p className='pt-0 text-xs lg:text-sm text-zinc-600'>Desktop Icon and primary logo for MayCAD.</p>
 
         <div className='py-4'>
-          <div className='rounded-md border-4 border-blue-100'></div>
+          <div className='rounded-md border-2 border-black'></div>
         </div>
 
         <div className='py-8 pt-0 mx-auto grid md:grid-cols-3 gap-8'>

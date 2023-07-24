@@ -45,7 +45,7 @@ function BlackGlass() {
         </div>
 
         <div className='py-4'>
-            <div className='rounded-md border-4 border-blue-100'></div>
+                <div className='rounded-md border-2 border-black'></div>
         </div>
 
         <div className='py-8 mx-auto grid md:grid-cols-3 gap-8'>

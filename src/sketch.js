@@ -68,7 +68,8 @@ function sketch(p) {
     let numRows = p.floor(p.windowHeight/colSize);
     let highlight = p.color(255, 132, 0);
     // let baseCol = p.color(125, 125, 125);
-    let baseCol = p.color(242, 85, 101);
+    // let baseCol = p.color(242, 85, 101);
+    let baseCol = p.color(165, 165, 165);
     for (let i = 0; i < numCols; i++) {
       let x = i * colSize + colSize/2;
       // console.log(x)

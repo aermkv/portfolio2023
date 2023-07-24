@@ -8,6 +8,7 @@ import Iworld from './pages/Iworld'
 import Framexpert from './pages/Framexpert'
 import Warner from './pages/Warner'
 import Misc from './pages/Misc'
+import Misc2 from './pages/Misc2'
 import { Route, Routes } from 'react-router-dom'
 
 
@@ -56,6 +57,7 @@ function App() {
           <Route path='/pages/Framexpert' element={<Framexpert />} />
           <Route path='/pages/Warner' element={<Warner />} />
           <Route path='/pages/Misc' element={<Misc />} />
+          <Route path='/pages/Misc2' element={<Misc2 />} />
         </Routes>
       </div>
 

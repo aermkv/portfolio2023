@@ -4,6 +4,7 @@ import Main from './components/Main'
 import DoodleLabs from './pages/DoodleLabs'
 import BlackGlass from './pages/BlackGlass'
 import CreativeBrands from './pages/CreativeBrands'
+import Bonsai from './pages/Bonsai'
 import Iworld from './pages/Iworld'
 import Framexpert from './pages/Framexpert'
 import Warner from './pages/Warner'
@@ -53,6 +54,7 @@ function App() {
           <Route path='/pages/DoodleLabs' element={<DoodleLabs />} />
           <Route path='/pages/BlackGlass' element={<BlackGlass />} />
           <Route path='/pages/CreativeBrands' element={<CreativeBrands />} />
+          <Route path='/pages/Bonsai' element={<Bonsai />} />
           <Route path='/pages/Iworld' element={<Iworld />} />
           <Route path='/pages/Framexpert' element={<Framexpert />} />
           <Route path='/pages/Warner' element={<Warner />} />

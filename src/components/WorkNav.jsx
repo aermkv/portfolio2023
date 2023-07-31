@@ -40,6 +40,11 @@ const WorkNav = () => {
                         <span className='px-1 py-1 hidden group-hover:block duration-300 text-xl md:text-2xl lg:text-4xl'>Branding and packaging design for consumer goods</span>
                     </CustomLink>
 
+                    <CustomLink className='group -mt-8 hover:text-gray-600' to='../pages/Bonsai'>
+                        <span className='text-4xl md:text-6xl lg:text-7xl ease-in-out tracking-tighter hover:tracking-wide hover:font-medium duration-300'>Bonsai</span>
+                        <span className='px-1 py-1 hidden group-hover:block duration-300 text-xl md:text-2xl lg:text-4xl'>Branding and design system for mentorship app</span>
+                    </CustomLink>
+
                     <CustomLink className='group -mt-8 hover:text-gray-600' to='../pages/Framexpert'>
                         <span className='text-4xl md:text-6xl lg:text-7xl ease-in-out tracking-tighter hover:tracking-wide hover:font-medium duration-300'>Framexpert</span>
                         {/* <Typed className='px-1 py-1 hidden group-hover:block text-xl md:text-2xl lg:text-4xl' strings={['Iconography, UI components, branding for CAD software']} typeSpeed={2} backSpeed={2} /> */}

@@ -17,6 +17,8 @@ import PoapP1 from '../assets/images/PoapP1.png'
 import PoapP2 from '../assets/images/PoapP2.png'
 import DLExpoStand from '../assets/images/DLExpoStand.png'
 import DLTweet from '../assets/images/DLTweet.mp4'
+import DLTweet2 from '../assets/images/DLTweet2.mp4'
+import DLProfiles from '../assets/images/DLProfiles.png'
 
 import { Link, useMatch, useResolvedPath } from 'react-router-dom'
 
@@ -79,6 +81,13 @@ function DoodleLabs() {
             </div>
         </div>
 
+        <div className='py-8 mx-auto grid gap-3'>
+            <div className='' >
+                <img className='drop-shadow-xl rounded-md hover:drop-shadow-2xl duration-300' src={DLProfiles} alt='Doodle Labs Home Page' />
+            </div>
+            <p className='pt-4 text-xs lg:text-sm text-zinc-600'>User profile update modal prototypes.</p>
+        </div>
+
         {/* <div className='py-8 justify-left'>
             <div className='flex flex-cols-2'>
                 <div className=''>
@@ -118,7 +127,7 @@ function DoodleLabs() {
                 <p className='pt-4 text-xs lg:text-sm text-zinc-600'>Mockup for an exhibition stand.</p>
             </div>
             <div className='' >
-                <video className='rounded-sm drop-shadow-md hover:drop-shadow-xl duration-300' src={DLTweet} autoPlay loop muted />
+                <video className='rounded-sm drop-shadow-md hover:drop-shadow-xl duration-300' src={DLTweet2} autoPlay loop muted />
                 <p className='pt-4 text-xs lg:text-sm text-zinc-600'>Dynamic tweet template.</p>
             </div>
         </div>

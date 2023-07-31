@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link, useMatch, useResolvedPath } from 'react-router-dom'
 import BlackGlassMain from '../assets/images/BlackGlass-main.png'
+import BlackGlassMainAlt from '../assets/images/BlackGlass-mainAlt.png'
 import BGBranding from '../assets/images/BGBranding.png'
 import BGP1 from '../assets/images/BGP1.png'
 import BGP2 from '../assets/images/BGP2.png'
@@ -20,7 +21,7 @@ function BlackGlass() {
         </CustomLink>
     <div className='w-full max-w-[1240px] mx-auto ml-4 px-12 md:px-16 lg:px-20 py-16'>
 
-        <div className='py-8 mx-auto grid md:grid-cols-3 gap-8'>
+        <div className='py-4 pt-8 mx-auto grid md:grid-cols-3 gap-8'>
             <div className='md:col-span-2 text-justify'>
                 <h2 className='pt-4 text-3xl lg:text-4xl font-semibold'>Black Glass</h2>
                 <p className='py-4 pt-8 text-sm lg:text-xl'>Branding and web design for a marketing consulting agency.</p>
@@ -28,19 +29,14 @@ function BlackGlass() {
             </div>
         </div>
 
-        <div className='py-8 mx-auto grid grid-cols-1 md:grid-cols-3 gap-8'>
-            <div className='flex flex-col w-full md:col-span-2'>
+        <div className='py-8 mx-auto grid md:grid-cols-2 gap-8'>
+            <div className='flex flex-col w-full'>
+                <p className='pb-4 text-xs lg:text-sm text-zinc-600'>Main page.</p>
                 <img className='drop-shadow-xl rounded-md hover:drop-shadow-2xl duration-300' src={BlackGlassMain} alt='Black glass Home Page' />
             </div>
-            <div className='flex flex-col mt-0 md:mt-24 text-sm lg:text-xl'>
-                <h3 className='mt-4 text-xl lg:text-2xl font-semibold'>Our key goals were to:</h3>
-                <div className='mt-4 rounded-md font-base'>
-                    {/* <h3 className='mx-4 mt-4 lg:text-3xl font-bold'>THE GOAL</h3> */}
-                    <p className='font-medium mb-4 lg:text-base'><strong>1 / Provide a platform that enables brands and artists to connect with new audiences</strong> in the generative art market, building a community of collectors.</p>
-                </div>
-                <div className='mt-4 rounded-md font-base'>
-                    <p className='font-medium mb-4 lg:text-base'><strong>2 / Produce exceptional NFT projects that distinguish themselves in the industry</strong> and captivate the attention of prospective collectors through close collaboration with artists, effectively translating their artistic expressions into the generative medium.</p>
-                </div>
+            <div className='flex flex-col w-full'>
+                <p className='pb-4 text-xs lg:text-sm text-zinc-600'>Secondary page in alternate color scheme.</p>
+                <img className='drop-shadow-xl rounded-md hover:drop-shadow-2xl duration-300' src={BlackGlassMainAlt} alt='Black glass Home Page' />
             </div>
         </div>
 
@@ -53,7 +49,9 @@ function BlackGlass() {
                 <p className='text-sm lg:text-xl'>The brand guideline was broken down into details and examples. As the client placed emphasis on their need to produce numerous high-quality presentations, we provided modular templates with detailed suggestions for various types of pages and their possible variations.</p>
             </div>
         </div>
-        <div className='py-8 mx-auto grid grid-cols-1 sm:grid-cols-3 gap-4'>
+
+        <p className='pt-8 text-xs lg:text-sm text-zinc-600'>Photography use guidelines.</p>
+        <div className='py-4 mx-auto grid grid-cols-1 sm:grid-cols-3 gap-4'>
             <div className='flex flex-col w-full'>
                 <img className='drop-shadow-md rounded-sm hover:drop-shadow-xl duration-300' src={BGP1} alt='Black glass Home Page' />
             </div>
@@ -64,7 +62,9 @@ function BlackGlass() {
                 <img className='drop-shadow-md rounded-sm hover:drop-shadow-xl duration-300' src={BGP3} alt='Black glass Home Page' />
             </div>
         </div>
-        <div className='py-8 mx-auto grid grid-cols-3 gap-4'>
+
+        <p className='pt-8 text-xs lg:text-sm text-zinc-600'>Column layout guidelines.</p>
+        <div className='py-4 mx-auto grid grid-cols-3 gap-4'>
             <div className='flex flex-col w-full'>
                 <img className='drop-shadow-md rounded-sm hover:drop-shadow-xl duration-300' src={BGGrid1} alt='Black glass Home Page' />
             </div>
@@ -75,7 +75,9 @@ function BlackGlass() {
                 <img className='drop-shadow-md rounded-sm hover:drop-shadow-xl duration-300' src={BGGrid3} alt='Black glass Home Page' />
             </div>
         </div>
-        <div className='py-8 mx-auto'>
+
+        <p className='pt-8 text-xs lg:text-sm text-zinc-600'>Pitch deck template slides.</p>
+        <div className='py-4 mx-auto'>
             <div className='flex flex-col w-full md:col-span-3'>
                 <img className='drop-shadow-xl rounded-sm hover:drop-shadow-2xl duration-300' src={BGBranding} alt='Black glass Home Page' />
             </div>

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio2023/static/css/main.68a5bd98.css",
-    "main.js": "/portfolio2023/static/js/main.8cceaed1.js",
+    "main.css": "/portfolio2023/static/css/main.7098a245.css",
+    "main.js": "/portfolio2023/static/js/main.62596ec5.js",
     "static/media/Gif3.gif": "/portfolio2023/static/media/Gif3.93a2c70a27c6fbe05f6e.gif",
     "static/media/IMRecording.mp4": "/portfolio2023/static/media/IMRecording.773556722bf13e84ec78.mp4",
     "static/media/Gif2.gif": "/portfolio2023/static/media/Gif2.708ceef0fbb607f876ae.gif",
@@ -11,6 +11,7 @@
     "static/media/OnaWine.png": "/portfolio2023/static/media/OnaWine.b5dc088ae537bbf7ea75.png",
     "static/media/CacaoJuiceStrawberry.png": "/portfolio2023/static/media/CacaoJuiceStrawberry.74ec604d935a3624ba6a.png",
     "static/media/DLTweet.mp4": "/portfolio2023/static/media/DLTweet.b204395fc277d4dc0686.mp4",
+    "static/media/DLTweet2.mp4": "/portfolio2023/static/media/DLTweet2.6f46b045a60e57753a60.mp4",
     "static/media/Neogen.mp4": "/portfolio2023/static/media/Neogen.9e01b6de2b3a0140814d.mp4",
     "static/media/SWGPoster.png": "/portfolio2023/static/media/SWGPoster.81e4291cbc0d8a90651a.png",
     "static/media/MiscPack1.png": "/portfolio2023/static/media/MiscPack1.02204b8da4238c5b2893.png",
@@ -60,25 +61,40 @@
     "static/media/BGP3.png": "/portfolio2023/static/media/BGP3.e3157553897743868859.png",
     "static/media/BKEmergencyToolTech.png": "/portfolio2023/static/media/BKEmergencyToolTech.d7d116327773f30469b7.png",
     "static/media/BGP1.png": "/portfolio2023/static/media/BGP1.844ea07487324d9624c2.png",
+    "static/media/BlackGlass-mainAlt.png": "/portfolio2023/static/media/BlackGlass-mainAlt.5c80b183b53bfce6b563.png",
     "static/media/CNYCWebProto.png": "/portfolio2023/static/media/CNYCWebProto.87d5c1facd92ab4807c1.png",
     "static/media/PoapP2.png": "/portfolio2023/static/media/PoapP2.e6d6c3cb2a815c443bcd.png",
     "static/media/PoapP1.png": "/portfolio2023/static/media/PoapP1.0dec7cb83c54c65d3866.png",
     "static/media/BGGrid1.jpg": "/portfolio2023/static/media/BGGrid1.c34f359d4a7d60362d9f.jpg",
+    "static/media/BonsaiIll2.png": "/portfolio2023/static/media/BonsaiIll2.914fe531ac875d1387f5.png",
+    "static/media/BonsaiType2.png": "/portfolio2023/static/media/BonsaiType2.2ca3499d9abc0e482851.png",
+    "static/media/DLProfiles.png": "/portfolio2023/static/media/DLProfiles.c26290c4e6797be92374.png",
     "static/media/CNYCIcons.png": "/portfolio2023/static/media/CNYCIcons.8e3041017bd1bdbc04d4.png",
+    "static/media/BonsaiType1.png": "/portfolio2023/static/media/BonsaiType1.16b2858942198ff08338.png",
     "static/media/FXIcons2.png": "/portfolio2023/static/media/FXIcons2.b8f872c49157b3e2be91.png",
+    "static/media/BonsaiEmail1.png": "/portfolio2023/static/media/BonsaiEmail1.c0373c9e0ffe44352d64.png",
+    "static/media/BonsaiIll1.png": "/portfolio2023/static/media/BonsaiIll1.47555e003ee193aeaa01.png",
+    "static/media/BonsaiRadio.png": "/portfolio2023/static/media/BonsaiRadio.4ff8c7275b89a72c0f87.png",
     "static/media/PlayNStayLogos.png": "/portfolio2023/static/media/PlayNStayLogos.dba7fb73c9d43aa20f4f.png",
     "static/media/ProfileEarly.png": "/portfolio2023/static/media/ProfileEarly.7133e7cecbf8ef83b24e.png",
     "static/media/FXIconLogo.png": "/portfolio2023/static/media/FXIconLogo.d34e49114a0730c65fee.png",
     "static/media/FXIcons1.png": "/portfolio2023/static/media/FXIcons1.87297c18b4cf98f980c4.png",
+    "static/media/BonsaiToasts.png": "/portfolio2023/static/media/BonsaiToasts.9d25a0de100e0ac4a38a.png",
+    "static/media/BonsaiEmail2.png": "/portfolio2023/static/media/BonsaiEmail2.3a985298b63955040ab8.png",
+    "static/media/BonsaiChecks.png": "/portfolio2023/static/media/BonsaiChecks.1b7339e8f876ab5b0f44.png",
     "static/media/ProfileActual.png": "/portfolio2023/static/media/ProfileActual.9bc977f5033113a9db83.png",
+    "static/media/BonsaiButtons.png": "/portfolio2023/static/media/BonsaiButtons.5e5ad55b6473df5727d1.png",
+    "static/media/BonsaiForms.png": "/portfolio2023/static/media/BonsaiForms.9a83fbf14dd727bd5a54.png",
     "static/media/FXLogo.png": "/portfolio2023/static/media/FXLogo.e6179845db4fcd0fcbab.png",
+    "static/media/BonsaiToggles.png": "/portfolio2023/static/media/BonsaiToggles.4bf534448ed8e446357f.png",
     "static/media/FXDesktop.png": "/portfolio2023/static/media/FXDesktop.6b18b93b89845745a55f.png",
+    "static/media/BonsaiEmail3.png": "/portfolio2023/static/media/BonsaiEmail3.4f6091443ed15a37417d.png",
     "index.html": "/portfolio2023/index.html",
-    "main.68a5bd98.css.map": "/portfolio2023/static/css/main.68a5bd98.css.map",
-    "main.8cceaed1.js.map": "/portfolio2023/static/js/main.8cceaed1.js.map"
+    "main.7098a245.css.map": "/portfolio2023/static/css/main.7098a245.css.map",
+    "main.62596ec5.js.map": "/portfolio2023/static/js/main.62596ec5.js.map"
   },
   "entrypoints": [
-    "static/css/main.68a5bd98.css",
-    "static/js/main.8cceaed1.js"
+    "static/css/main.7098a245.css",
+    "static/js/main.62596ec5.js"
   ]
 }

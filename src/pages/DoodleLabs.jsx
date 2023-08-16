@@ -19,6 +19,20 @@ import DLExpoStand from '../assets/images/DLExpoStand.png'
 import DLTweet from '../assets/images/DLTweet.mp4'
 import DLTweet2 from '../assets/images/DLTweet2.mp4'
 import DLProfiles from '../assets/images/DLProfiles.png'
+import DLSiteMap from '../assets/images/DLSiteMap.png'
+import DLPrintShopUserFlow from '../assets/images/DLPrintShopUserFlow.png'
+import DLMerch0 from '../assets/images/DLMerch0.png'
+import DLMerch1 from '../assets/images/DLMerch1.png'
+import DLMerch2 from '../assets/images/DLMerch2.png'
+import DLMerch3 from '../assets/images/DLMerch3.png'
+import DLPrintAlt0 from '../assets/images/DLPrintAlt0.png'
+import DLPrintAlt1 from '../assets/images/DLPrintAlt1.png'
+import DLPrintAlt2 from '../assets/images/DLPrintAlt2.png'
+import DLPrintAlt3 from '../assets/images/DLPrintAlt3.png'
+import DLPrintAlt4 from '../assets/images/DLPrintAlt4.png'
+import DLPrintAlt5 from '../assets/images/DLPrintAlt5.png'
+import DLPrintAlt6 from '../assets/images/DLPrintAlt6.png'
+
 
 import { Link, useMatch, useResolvedPath } from 'react-router-dom'
 
@@ -60,6 +74,12 @@ function DoodleLabs() {
                 </div>
             </div>
         </div>
+        <div className='py-8 mx-auto grid gap-3'>
+            <div className='' >
+                <img className='drop-shadow-xl rounded-md hover:drop-shadow-2xl duration-300' src={DLSiteMap} alt='Doodle Labs Site Map' />
+            </div>
+            <p className='pt-4 text-xs lg:text-sm text-zinc-600'>Early low-fi site map.</p>
+        </div>
 
         <div className='py-4'>
             <div className='rounded-md border-2 border-black'></div>
@@ -100,6 +120,62 @@ function DoodleLabs() {
                 </div>
             </div>
         </div> */}
+
+        <div className='py-4'>
+            <div className='rounded-md border-2 border-black'></div>
+        </div>
+
+        <div className='py-8 mx-auto grid md:grid-cols-3 gap-8'>
+            <div className='md:col-span-2 text-justify'>
+                <p className='pb-4 text-sm lg:text-xl'>Some NFT drops offered collectors a perk: to print their unique pieces as one-of-one prints, authenticated by a transaction on the blcokchain and signed by the artist, ensuring an immutable proof of ownership.</p>
+                <p className='text-sm lg:text-xl'>Since logging into one's profile and authorizing a blockchain transaction would require two interactions with the external Metamask Chrome extension, we needed to optimize flow and minimize friction around those events, which was mainly achieved by sequencing steps on one page. The next step would remain hidden until the previous was completed, providing a smooth flow to the experience.</p>
+            </div>
+        </div>
+        <div className='py-8 mx-auto grid gap-3'>
+            <p className='text-xs lg:text-sm text-zinc-600'>Print Shop User Flow.</p>
+            <div className='' >
+                <img className='drop-shadow-xl rounded-md hover:drop-shadow-2xl duration-300' src={DLPrintShopUserFlow} alt='Print Shop User Flow' />
+            </div>
+        </div>
+        <div className='py-8 mx-auto grid md:grid-cols-3 gap-8'>
+            <div className='md:col-span-2 text-justify'>
+                <p className='pb-4 text-sm lg:text-xl'>Successful print path prototypes where each completed step autoscrolls up to reveal next step. Inspired by Typeform, but with added ability to easily scroll back to review or change earlier entry.</p>
+            </div>
+        </div>
+        {/* <div className='py-8 pt-2 mx-auto grid grid-cols-2 md:grid-cols-4 gap-3'>
+            <div className='flex flex-col w-full'>
+                <img className='drop-shadow-xl rounded-md hover:drop-shadow-2xl duration-300' src={DLMerch0} />
+            </div>
+            <div className='flex flex-col w-full'>
+                <img className='drop-shadow-xl rounded-md hover:drop-shadow-2xl duration-300' src={DLMerch1} />
+            </div>
+            <div className='flex flex-col w-full'>
+                <img className='drop-shadow-xl rounded-md hover:drop-shadow-2xl duration-300' src={DLMerch2} />
+            </div>
+            <div className='flex flex-col w-full'>
+                <img className='drop-shadow-xl rounded-md hover:drop-shadow-2xl duration-300' src={DLMerch3} />
+            </div>
+        </div> */}
+        <div className='py-8 pt-2 mx-auto grid grid-cols-1 md:grid-cols-2 gap-3'>
+            <div className='flex flex-col w-full'>
+                <img className='drop-shadow-xl rounded-md hover:drop-shadow-2xl duration-300' src={DLPrintAlt0} />
+            </div>
+            <div className='flex flex-col w-full'>
+                <img className='drop-shadow-xl rounded-md hover:drop-shadow-2xl duration-300' src={DLPrintAlt1} />
+            </div>
+            <div className='flex flex-col w-full'>
+                <img className='drop-shadow-xl rounded-md hover:drop-shadow-2xl duration-300' src={DLPrintAlt2} />
+            </div>
+            <div className='flex flex-col w-full'>
+                <img className='drop-shadow-xl rounded-md hover:drop-shadow-2xl duration-300' src={DLPrintAlt3} />
+            </div>
+            <div className='flex flex-col w-full'>
+                <img className='drop-shadow-xl rounded-md hover:drop-shadow-2xl duration-300' src={DLPrintAlt5} />
+            </div>
+            <div className='flex flex-col w-full'>
+                <img className='drop-shadow-xl rounded-md hover:drop-shadow-2xl duration-300' src={DLPrintAlt6} />
+            </div>
+        </div>
 
         <div className='py-4'>
             <div className='rounded-md border-2 border-black'></div>

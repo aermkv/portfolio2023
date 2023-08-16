@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio2023/static/css/main.7098a245.css",
-    "main.js": "/portfolio2023/static/js/main.62596ec5.js",
+    "main.css": "/portfolio2023/static/css/main.ba8ff5c5.css",
+    "main.js": "/portfolio2023/static/js/main.485976b5.js",
     "static/media/Gif3.gif": "/portfolio2023/static/media/Gif3.93a2c70a27c6fbe05f6e.gif",
     "static/media/IMRecording.mp4": "/portfolio2023/static/media/IMRecording.773556722bf13e84ec78.mp4",
     "static/media/Gif2.gif": "/portfolio2023/static/media/Gif2.708ceef0fbb607f876ae.gif",
@@ -62,11 +62,14 @@
     "static/media/BKEmergencyToolTech.png": "/portfolio2023/static/media/BKEmergencyToolTech.d7d116327773f30469b7.png",
     "static/media/BGP1.png": "/portfolio2023/static/media/BGP1.844ea07487324d9624c2.png",
     "static/media/BlackGlass-mainAlt.png": "/portfolio2023/static/media/BlackGlass-mainAlt.5c80b183b53bfce6b563.png",
+    "static/media/DLPrintShopUserFlow.png": "/portfolio2023/static/media/DLPrintShopUserFlow.1e798ad7e3f959c60ccf.png",
     "static/media/CNYCWebProto.png": "/portfolio2023/static/media/CNYCWebProto.87d5c1facd92ab4807c1.png",
+    "static/media/DLSiteMap.png": "/portfolio2023/static/media/DLSiteMap.31d876bc57421f13418e.png",
     "static/media/PoapP2.png": "/portfolio2023/static/media/PoapP2.e6d6c3cb2a815c443bcd.png",
     "static/media/PoapP1.png": "/portfolio2023/static/media/PoapP1.0dec7cb83c54c65d3866.png",
     "static/media/BGGrid1.jpg": "/portfolio2023/static/media/BGGrid1.c34f359d4a7d60362d9f.jpg",
     "static/media/BonsaiIll2.png": "/portfolio2023/static/media/BonsaiIll2.914fe531ac875d1387f5.png",
+    "static/media/DLPrintAlt0.png": "/portfolio2023/static/media/DLPrintAlt0.3412b0c3ac935e8d4d71.png",
     "static/media/BonsaiType2.png": "/portfolio2023/static/media/BonsaiType2.2ca3499d9abc0e482851.png",
     "static/media/DLProfiles.png": "/portfolio2023/static/media/DLProfiles.c26290c4e6797be92374.png",
     "static/media/CNYCIcons.png": "/portfolio2023/static/media/CNYCIcons.8e3041017bd1bdbc04d4.png",
@@ -77,24 +80,34 @@
     "static/media/BonsaiRadio.png": "/portfolio2023/static/media/BonsaiRadio.4ff8c7275b89a72c0f87.png",
     "static/media/PlayNStayLogos.png": "/portfolio2023/static/media/PlayNStayLogos.dba7fb73c9d43aa20f4f.png",
     "static/media/ProfileEarly.png": "/portfolio2023/static/media/ProfileEarly.7133e7cecbf8ef83b24e.png",
+    "static/media/DLMerch2.png": "/portfolio2023/static/media/DLMerch2.c5957391b9bb79d97242.png",
+    "static/media/DLMerch1.png": "/portfolio2023/static/media/DLMerch1.c37bcb1ab157b15d17ec.png",
     "static/media/FXIconLogo.png": "/portfolio2023/static/media/FXIconLogo.d34e49114a0730c65fee.png",
     "static/media/FXIcons1.png": "/portfolio2023/static/media/FXIcons1.87297c18b4cf98f980c4.png",
     "static/media/BonsaiToasts.png": "/portfolio2023/static/media/BonsaiToasts.9d25a0de100e0ac4a38a.png",
     "static/media/BonsaiEmail2.png": "/portfolio2023/static/media/BonsaiEmail2.3a985298b63955040ab8.png",
     "static/media/BonsaiChecks.png": "/portfolio2023/static/media/BonsaiChecks.1b7339e8f876ab5b0f44.png",
     "static/media/ProfileActual.png": "/portfolio2023/static/media/ProfileActual.9bc977f5033113a9db83.png",
+    "static/media/DLMerch0.png": "/portfolio2023/static/media/DLMerch0.26845dabd5bc2e15bec4.png",
+    "static/media/DLMerch3.png": "/portfolio2023/static/media/DLMerch3.824a3509519dd26a4795.png",
     "static/media/BonsaiButtons.png": "/portfolio2023/static/media/BonsaiButtons.5e5ad55b6473df5727d1.png",
     "static/media/BonsaiForms.png": "/portfolio2023/static/media/BonsaiForms.9a83fbf14dd727bd5a54.png",
     "static/media/FXLogo.png": "/portfolio2023/static/media/FXLogo.e6179845db4fcd0fcbab.png",
     "static/media/BonsaiToggles.png": "/portfolio2023/static/media/BonsaiToggles.4bf534448ed8e446357f.png",
+    "static/media/DLPrintAlt4.png": "/portfolio2023/static/media/DLPrintAlt4.2bf00a3ad0d52021e78b.png",
+    "static/media/DLPrintAlt5.png": "/portfolio2023/static/media/DLPrintAlt5.45c625568abf57a0f382.png",
+    "static/media/DLPrintAlt3.png": "/portfolio2023/static/media/DLPrintAlt3.a1d4258087f5fca7807e.png",
     "static/media/FXDesktop.png": "/portfolio2023/static/media/FXDesktop.6b18b93b89845745a55f.png",
     "static/media/BonsaiEmail3.png": "/portfolio2023/static/media/BonsaiEmail3.4f6091443ed15a37417d.png",
+    "static/media/DLPrintAlt6.png": "/portfolio2023/static/media/DLPrintAlt6.ee89891c38304f559142.png",
+    "static/media/DLPrintAlt1.png": "/portfolio2023/static/media/DLPrintAlt1.7200494995989ebeb4bf.png",
+    "static/media/DLPrintAlt2.png": "/portfolio2023/static/media/DLPrintAlt2.8e43d8256bee17a5af71.png",
     "index.html": "/portfolio2023/index.html",
-    "main.7098a245.css.map": "/portfolio2023/static/css/main.7098a245.css.map",
-    "main.62596ec5.js.map": "/portfolio2023/static/js/main.62596ec5.js.map"
+    "main.ba8ff5c5.css.map": "/portfolio2023/static/css/main.ba8ff5c5.css.map",
+    "main.485976b5.js.map": "/portfolio2023/static/js/main.485976b5.js.map"
   },
   "entrypoints": [
-    "static/css/main.7098a245.css",
-    "static/js/main.62596ec5.js"
+    "static/css/main.ba8ff5c5.css",
+    "static/js/main.485976b5.js"
   ]
 }

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio2023/static/css/main.ba8ff5c5.css",
-    "main.js": "/portfolio2023/static/js/main.485976b5.js",
+    "main.js": "/portfolio2023/static/js/main.943dd4d2.js",
     "static/media/Gif3.gif": "/portfolio2023/static/media/Gif3.93a2c70a27c6fbe05f6e.gif",
     "static/media/IMRecording.mp4": "/portfolio2023/static/media/IMRecording.773556722bf13e84ec78.mp4",
     "static/media/Gif2.gif": "/portfolio2023/static/media/Gif2.708ceef0fbb607f876ae.gif",
@@ -40,6 +40,7 @@
     "static/media/PC1.png": "/portfolio2023/static/media/PC1.8d3ec0274412212a5ef7.png",
     "static/media/MiscAleva1.png": "/portfolio2023/static/media/MiscAleva1.7d4041f1c010a91bcfa8.png",
     "static/media/Tzumi2.png": "/portfolio2023/static/media/Tzumi2.f343d2631a3f8ca07da7.png",
+    "static/media/DLPrintShopPrototype.mp4": "/portfolio2023/static/media/DLPrintShopPrototype.734f107fe72b44acbf77.mp4",
     "static/media/FXMain.png": "/portfolio2023/static/media/FXMain.21f90b2738da4c4ac668.png",
     "static/media/Deck.png": "/portfolio2023/static/media/Deck.ded1b819b4f76e1152ef.png",
     "static/media/BlackGlass-main.png": "/portfolio2023/static/media/BlackGlass-main.8700832907e8ec8bb96f.png",
@@ -104,10 +105,10 @@
     "static/media/DLPrintAlt2.png": "/portfolio2023/static/media/DLPrintAlt2.8e43d8256bee17a5af71.png",
     "index.html": "/portfolio2023/index.html",
     "main.ba8ff5c5.css.map": "/portfolio2023/static/css/main.ba8ff5c5.css.map",
-    "main.485976b5.js.map": "/portfolio2023/static/js/main.485976b5.js.map"
+    "main.943dd4d2.js.map": "/portfolio2023/static/js/main.943dd4d2.js.map"
   },
   "entrypoints": [
     "static/css/main.ba8ff5c5.css",
-    "static/js/main.485976b5.js"
+    "static/js/main.943dd4d2.js"
   ]
 }

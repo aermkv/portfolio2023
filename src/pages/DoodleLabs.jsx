@@ -32,6 +32,7 @@ import DLPrintAlt3 from '../assets/images/DLPrintAlt3.png'
 import DLPrintAlt4 from '../assets/images/DLPrintAlt4.png'
 import DLPrintAlt5 from '../assets/images/DLPrintAlt5.png'
 import DLPrintAlt6 from '../assets/images/DLPrintAlt6.png'
+import DLPrintShopPrototype from '../assets/images/DLPrintShopPrototype.mp4'
 
 
 import { Link, useMatch, useResolvedPath } from 'react-router-dom'
@@ -156,7 +157,8 @@ function DoodleLabs() {
                 <img className='drop-shadow-xl rounded-md hover:drop-shadow-2xl duration-300' src={DLMerch3} />
             </div>
         </div> */}
-        <div className='py-8 pt-2 mx-auto grid grid-cols-1 md:grid-cols-2 gap-3'>
+
+        {/* <div className='py-8 pt-2 mx-auto grid grid-cols-1 md:grid-cols-2 gap-3'>
             <div className='flex flex-col w-full'>
                 <img className='drop-shadow-xl rounded-md hover:drop-shadow-2xl duration-300' src={DLPrintAlt0} />
             </div>
@@ -174,6 +176,12 @@ function DoodleLabs() {
             </div>
             <div className='flex flex-col w-full'>
                 <img className='drop-shadow-xl rounded-md hover:drop-shadow-2xl duration-300' src={DLPrintAlt6} />
+            </div>
+        </div> */}
+
+        <div className='py-8 mx-auto grid grid-cols-1'>
+            <div className='flex flex-col text-sm lg:text-xl'>
+                <video src={DLPrintShopPrototype} type="video/mp4" autoPlay loop className='drop-shadow-xl rounded-md hover:drop-shadow-2xl duration-300' />
             </div>
         </div>
 

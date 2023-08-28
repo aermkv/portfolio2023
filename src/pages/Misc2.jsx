@@ -48,6 +48,7 @@ import CNYCSocial from '../assets/images/CNYCSocial.png'
 import CNYCIcons from '../assets/images/CNYCIcons.png'
 import PlayNStayLogos from '../assets/images/PlayNStayLogos.png'
 import BrainBowls from '../assets/images/BrainBowls.gif'
+import BrainBowlsReduced from '../assets/images/BrainBowlsReduced.mp4'
 
 import { Link, useMatch, useResolvedPath } from 'react-router-dom'
 
@@ -321,7 +322,8 @@ function Misc2() {
                 <div className='flex flex-col'>
                     <img className='drop-shadow-md rounded-md hover:drop-shadow-lg duration-300' src={CNYCSocial} alt='Misc Packaging 1' />
                     <p className='pt-4 text-xs lg:text-sm text-zinc-600'>Social posts aimed at engaging young chess players.</p>
-                    <img className='pt-8 drop-shadow-md rounded-md hover:drop-shadow-lg duration-300' src={BrainBowls} alt='Misc Packaging 1' />
+                    {/* <img className='pt-8 drop-shadow-md rounded-md hover:drop-shadow-lg duration-300' src={BrainBowls} alt='Misc Packaging 1' /> */}
+                    <video className='pt-8 drop-shadow-md rounded-md hover:drop-shadow-lg duration-300' src={BrainBowlsReduced} type="video/mp4" autoPlay loop playInLine />
                     <p className='pt-4 text-xs lg:text-sm text-zinc-600'>Animation promoting Brain Bowls contests.</p>
                 </div>
                 <div className='flex flex-col'>

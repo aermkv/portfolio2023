@@ -95,7 +95,7 @@ function DoodleLabs() {
         </div>
         <div className='py-8 mx-auto grid grid-cols-1 md:grid-cols-3 gap-8'>
             <div className='flex flex-col text-sm lg:text-xl md:col-span-2'>
-                <video src={GIFedit} type="video/mp4" autoPlay loop playInLine className='drop-shadow-xl rounded-md hover:drop-shadow-2xl duration-300' />
+                <video src={GIFedit} type="video/mp4" autoPlay loop playsInLine className='drop-shadow-xl rounded-md hover:drop-shadow-2xl duration-300' />
             </div>
             <div className='flex flex-col w-full mt-0 lg:mt-24 lg:col-span-1'>
                 {/* <p className='text-sm lg:text-xl'>As we were populating our platform with the first few projects, we had to review existing pages and develop new ones to accommodate user needs. A major hurdle was offering collectors various ways to view projects and collections, to sort through them, to edit their profile, order prints, etc. while keeping the site intuitively easy to use and visually uncluttered.</p> */}
@@ -183,7 +183,7 @@ function DoodleLabs() {
 
         <div className='py-8 mx-auto grid grid-cols-1'>
             <div className='flex flex-col text-sm lg:text-xl'>
-                <video src={DLPrintShopPrototypeEdit} type="video/mp4" autoPlay loop playInLine className='drop-shadow-xl rounded-md hover:drop-shadow-2xl duration-300' />
+                <video src={DLPrintShopPrototypeEdit} type="video/mp4" autoPlay loop playsInLine className='drop-shadow-xl rounded-md hover:drop-shadow-2xl duration-300' />
             </div>
         </div>
 
@@ -213,7 +213,7 @@ function DoodleLabs() {
                 <p className='pt-4 text-xs lg:text-sm text-zinc-600'>Mockup for an exhibition stand.</p>
             </div>
             <div className='' >
-                <video className='rounded-md drop-shadow-md hover:drop-shadow-xl duration-300' src={DLTweet2edit} autoPlay loop muted playInLine />
+                <video className='rounded-md drop-shadow-md hover:drop-shadow-xl duration-300' src={DLTweet2edit} autoPlay loop muted playsInLine />
                 <p className='pt-4 text-xs lg:text-sm text-zinc-600'>Dynamic tweet template.</p>
             </div>
         </div>
@@ -230,13 +230,13 @@ function DoodleLabs() {
         </div>
         <div className='py-8 pt-2 mx-auto grid grid-cols-1 md:grid-cols-3 gap-8'>
             <div className='flex flex-col w-full'>
-                <video className='drop-shadow-xl rounded-md hover:drop-shadow-2xl duration-300' src={Gif1edited} type="video/mp4" autoPlay loop muted playInLine />
+                <video className='drop-shadow-xl rounded-md hover:drop-shadow-2xl duration-300' src={Gif1edited} type="video/mp4" autoPlay loop muted playsInLine />
             </div>
             <div className='flex flex-col w-full'>
-                <video className='drop-shadow-xl rounded-md hover:drop-shadow-2xl duration-300' src={Gif2edited} type="video/mp4" autoPlay loop muted playInLine />
+                <video className='drop-shadow-xl rounded-md hover:drop-shadow-2xl duration-300' src={Gif2edited} type="video/mp4" autoPlay loop muted playsInLine />
             </div>
             <div className='flex flex-col w-full'>
-                <video className='drop-shadow-xl rounded-md hover:drop-shadow-2xl duration-300' src={Gif3edited} type="video/mp4" autoPlay loop muted playInLine />
+                <video className='drop-shadow-xl rounded-md hover:drop-shadow-2xl duration-300' src={Gif3edited} type="video/mp4" autoPlay loop muted playsInLine />
             </div>
         </div>
 
@@ -246,7 +246,7 @@ function DoodleLabs() {
 
         <div className='py-8 mx-auto grid grid-cols-1 md:grid-cols-3 gap-8'>
             <div className='flex flex-col text-sm lg:text-xl md:col-span-2'>
-                <video src={NeogenEdit} type="video/mp4" autoPlay loop muted playInLine className='drop-shadow-xl rounded-md hover:drop-shadow-2xl duration-300' />
+                <video src={NeogenEdit} type="video/mp4" autoPlay loop muted playsInLine className='drop-shadow-xl rounded-md hover:drop-shadow-2xl duration-300' />
             </div>
             <div className='flex flex-col w-full mt-0 md:mt-24 md:col-span-1'>
                 <p className='text-sm lg:text-xl'>Certain projects also afforded opportunities for some fun video editing, meme-making, and other playful approaches to promoting the art. Some of this work was shown on screens at Times Square, on trucks that drove around the city during NFT NYC, and some became memes that were posted on Twitter and in the community discord.</p>
@@ -267,7 +267,7 @@ function DoodleLabs() {
             <div className='flex flex-col w-full'>
                 <a target="_blank" href='https://industrialmelanism.doodlelabs.io/'>
                 <h4 className='py-4 font-medium'>Industrial Melanism</h4>
-                <video className='rounded-sm drop-shadow-md hover:drop-shadow-xl duration-300' src={IMRecordingEdit} autoPlay loop muted playInLine />
+                <video className='rounded-sm drop-shadow-md hover:drop-shadow-xl duration-300' src={IMRecordingEdit} autoPlay loop muted playsInLine />
                 {/* <iframe className='aspect-square rounded-sm border drop-shadow-md hover:drop-shadow-xl duration-300' src='https://generator.artblocks.io/0x28f2d3805652fb5d359486dffb7d08320d403240/5000794' /> */}
                 <p className='py-4 text-sm lg:text-lg'>An extension of Neil Grayson's successful paintings done in oil and metals. Interactivity was introduced to simulate the physical properties of the art in the digital rendering.</p>
                 </a>

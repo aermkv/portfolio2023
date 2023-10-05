@@ -8,7 +8,7 @@ module.exports = {
         // 'martian': ['Martian Mono', 'monospace'],
         // 'josefin': ['Josefin Sans', 'sans-serif']
       },
-    },
+    }
   },
   variants: {
     extend: {

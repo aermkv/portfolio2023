@@ -64,17 +64,18 @@ const WorkNav = () => {
                         <span className='px-1 py-1 hidden group-hover:block duration-300 text-xl md:text-2xl lg:text-4xl'>Packaging, posters, pitch decks, and more</span>
                     </CustomLink> */}
 
+                    <CustomLink className='group -mt-8 hover:text-gray-600' to='../pages/FX'>
+                        <span className='text-4xl md:text-6xl lg:text-7xl ease-in-out tracking-tighter hover:tracking-wide hover:font-medium duration-300'>FrameXpert</span>
+                        {/* <Typed className='px-1 py-1 hidden group-hover:block text-xl md:text-2xl lg:text-4xl' strings={['Packaging, posters, pitch decks, and more']} typeSpeed={2} backSpeed={2} /> */}
+                        <span className='px-1 py-1 hidden group-hover:block duration-300 text-xl md:text-2xl lg:text-4xl'>Iconography, UI components, branding for CAD software</span>
+                    </CustomLink>
+
                     <CustomLink className='group -mt-8 hover:text-gray-600' to='../pages/Packaging'>
                         <span className='text-4xl md:text-6xl lg:text-7xl ease-in-out tracking-tighter hover:tracking-wide hover:font-medium duration-300'>Packaging</span>
                         {/* <Typed className='px-1 py-1 hidden group-hover:block text-xl md:text-2xl lg:text-4xl' strings={['Packaging, posters, pitch decks, and more']} typeSpeed={2} backSpeed={2} /> */}
                         <span className='px-1 py-1 hidden group-hover:block duration-300 text-xl md:text-2xl lg:text-4xl'>Packaging design across categories</span>
                     </CustomLink>
 
-                    <CustomLink className='group -mt-8 hover:text-gray-600' to='../pages/FX'>
-                        <span className='text-4xl md:text-6xl lg:text-7xl ease-in-out tracking-tighter hover:tracking-wide hover:font-medium duration-300'>FrameXpert</span>
-                        {/* <Typed className='px-1 py-1 hidden group-hover:block text-xl md:text-2xl lg:text-4xl' strings={['Packaging, posters, pitch decks, and more']} typeSpeed={2} backSpeed={2} /> */}
-                        <span className='px-1 py-1 hidden group-hover:block duration-300 text-xl md:text-2xl lg:text-4xl'>Iconography, UI components, branding for CAD software</span>
-                    </CustomLink>
                     <CustomLink className='group -mt-8 hover:text-gray-600' to='../pages/Misc3'>
                         <span className='text-4xl md:text-6xl lg:text-7xl ease-in-out tracking-tighter hover:tracking-wide hover:font-medium duration-300'>Misc & Early Days</span>
                         {/* <Typed className='px-1 py-1 hidden group-hover:block text-xl md:text-2xl lg:text-4xl' strings={['Packaging, posters, pitch decks, and more']} typeSpeed={2} backSpeed={2} /> */}

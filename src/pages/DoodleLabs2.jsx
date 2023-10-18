@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 import { Link, useMatch, useResolvedPath } from 'react-router-dom'
 
@@ -19,11 +19,20 @@ import DLSiteMap from '../assets/images/DLSiteMap.png'
 import DLPrintShopUserFlow from '../assets/images/DLPrintShopUserFlow.png'
 import DLPrintShopPrototype2 from '../assets/images/DLPrintShopPrototype2.mp4'
 
+import DLMerch from '../assets/images/DLMerch.png'
+import NeogenEdit from '../assets/images/NeogenEdit.mp4'
+
+import PoapP1 from '../assets/images/PoapP1.png'
+import PoapP2 from '../assets/images/PoapP2.png'
+
 import BackArrow from '../assets/images/BackArrow.png'
 
 
 
 function DoodleLabs2() {
+
+  const [mutedVideo, setMutedVideo] = useState(true);
+
   return (
 
     <div className='w-screen'>
@@ -133,6 +142,60 @@ function DoodleLabs2() {
         <div className='flex flex-col w-full'>
           <video className='drop-shadow-xl rounded-md' src={Gif3edited} type="video/mp4" autoPlay loop muted playsInline />
         </div>  
+      </div>
+
+      <div className='py-8 pt-12'>
+        <div className='rounded-md border-2 border-black'></div>
+      </div>
+
+      <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid md:grid-cols-3 gap-16'>
+        <div className='flex flex-col w-full col-span-2'>
+          <p className='pt-2 md:pt-4'>Certain projects lent themselves well to community engagement through memes, trailers, hype videos, while others needed to be marketed in a more elevated art world aesthetic. Below is a teaser for our "Neogen Space Monkeys" drop, a collaborative project bewteen Dalek and Generative Artworks.</p>
+          <p className='pt-2 md:pt-4'>Since the artist had an established following, we decided to appeal to existing fans and captivate new ones with an online game, memes, illustrations, and several teasers. Click mute / unmute to hear audio.</p>
+        </div>
+        <div className='flex flex-col w-full'>
+
+        </div>
+      </div>
+
+      <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid'>
+        <div className='flex flex-col w-full'>
+          <video src={NeogenEdit} type="video/mp4" muted={mutedVideo} autoPlay loop playsInline className='rounded-md' />
+          <div className='flex flex-cols-2 w-full justify-end gap-2'>
+            <button onClick={() => setMutedVideo(true)} className={( mutedVideo ? "active" : "")}>
+              Mute
+            </button>
+            <button onClick={() => setMutedVideo(false)} className={(! mutedVideo ? "active" : "")}>
+              Unmute
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid md:grid-cols-3 gap-16'>
+        <div className='flex flex-col w-full col-span-2'>
+          <p className='pt-2 md:pt-4'>The NFT space also presented opportunities to distribute merch and other branded collateral.</p>
+        </div>
+        <div className='flex flex-col w-full'>
+
+        </div>
+      </div>
+
+      <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid'>
+        <div className='flex flex-col w-full'>
+          <img className='rounded-md' src={DLMerch} />
+        </div>
+        <p className='pt-4 text-xs lg:text-sm text-zinc-600'>Doodle Labs merch.</p>
+      </div>
+
+      <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid md:grid-cols-2 gap-0'>
+        <div className='flex flex-col w-full' >
+          <img className='pt-2 md:pt-4' src={PoapP1} alt='Doodle Labs Home Page' />
+        </div>
+        <div className='flex flex-col w-full' >
+          <img className='pt-2 md:pt-4' src={PoapP2} alt='Doodle Labs Home Page' />
+        </div>
+        <p className='pt-4 text-xs lg:text-sm text-zinc-600'>Prototyping POAP (Proof of Attendance Protocol) art for NFT NYC 2021.</p>
       </div>
 
       <div className='py-8 pt-12'>

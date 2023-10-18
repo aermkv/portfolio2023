@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio2023/static/css/main.933f2d82.css",
-    "main.js": "/portfolio2023/static/js/main.f510c4fe.js",
+    "main.css": "/portfolio2023/static/css/main.f16076f8.css",
+    "main.js": "/portfolio2023/static/js/main.3b7a0a17.js",
     "static/media/BrainBowls.gif": "/portfolio2023/static/media/BrainBowls.ac591e622afd02e98fb7.gif",
     "static/media/6000024.png": "/portfolio2023/static/media/6000024.836d74c7eead7634631c.png",
     "static/media/OnaWine.png": "/portfolio2023/static/media/OnaWine.b5dc088ae537bbf7ea75.png",
@@ -9,7 +9,6 @@
     "static/media/DLTweet.mp4": "/portfolio2023/static/media/DLTweet.b204395fc277d4dc0686.mp4",
     "static/media/BonsaiHeader.png": "/portfolio2023/static/media/BonsaiHeader.2ac8856c4ee81a89d653.png",
     "static/media/DLTweet2.mp4": "/portfolio2023/static/media/DLTweet2.6f46b045a60e57753a60.mp4",
-    "static/media/SWGPoster.png": "/portfolio2023/static/media/SWGPoster.81e4291cbc0d8a90651a.png",
     "static/media/PackagingHeader.png": "/portfolio2023/static/media/PackagingHeader.366912fadef66d00aadf.png",
     "static/media/DLProfilePage.png": "/portfolio2023/static/media/DLProfilePage.b538a1aceb39654fa8da.png",
     "static/media/DLLanding.png": "/portfolio2023/static/media/DLLanding.bb70e431f7b527f08937.png",
@@ -19,6 +18,7 @@
     "static/media/FXLandingMockup.png": "/portfolio2023/static/media/FXLandingMockup.c6609b16a3413ad2f749.png",
     "static/media/BrookstoneBellHowell.png": "/portfolio2023/static/media/BrookstoneBellHowell.2637c73da46bd54faccd.png",
     "static/media/FXAction.png": "/portfolio2023/static/media/FXAction.59aa3600a7701f009cf2.png",
+    "static/media/SWGPoster.png": "/portfolio2023/static/media/SWGPoster.7f94adfb76155ca66478.png",
     "static/media/DLExpoStand.png": "/portfolio2023/static/media/DLExpoStand.ffadc9f6f4c2b9405f17.png",
     "static/media/Musical1.jpeg": "/portfolio2023/static/media/Musical1.ec91ec8fbb8798c0c6fd.jpeg",
     "static/media/BnD2.jpeg": "/portfolio2023/static/media/BnD2.a2664d858371ef19b101.jpeg",
@@ -49,6 +49,7 @@
     "static/media/Gif1edited.mp4": "/portfolio2023/static/media/Gif1edited.13da5d4f688071085423.mp4",
     "static/media/Tzumi2.png": "/portfolio2023/static/media/Tzumi2.f343d2631a3f8ca07da7.png",
     "static/media/DLPrintShopPrototype.mp4": "/portfolio2023/static/media/DLPrintShopPrototype.734f107fe72b44acbf77.mp4",
+    "static/media/DLMerch.png": "/portfolio2023/static/media/DLMerch.3fada51761c0335ed964.png",
     "static/media/FXMain.png": "/portfolio2023/static/media/FXMain.21f90b2738da4c4ac668.png",
     "static/media/Deck.png": "/portfolio2023/static/media/Deck.ded1b819b4f76e1152ef.png",
     "static/media/BlackGlassLanding.png": "/portfolio2023/static/media/BlackGlassLanding.d2a1580bf9ad87be6447.png",
@@ -125,11 +126,11 @@
     "static/media/BlackGlassIcons2.png": "/portfolio2023/static/media/BlackGlassIcons2.0f0efd286f843e951497.png",
     "static/media/BlackGlassIcons1.png": "/portfolio2023/static/media/BlackGlassIcons1.85fc882c59c7daeb7497.png",
     "index.html": "/portfolio2023/index.html",
-    "main.933f2d82.css.map": "/portfolio2023/static/css/main.933f2d82.css.map",
-    "main.f510c4fe.js.map": "/portfolio2023/static/js/main.f510c4fe.js.map"
+    "main.f16076f8.css.map": "/portfolio2023/static/css/main.f16076f8.css.map",
+    "main.3b7a0a17.js.map": "/portfolio2023/static/js/main.3b7a0a17.js.map"
   },
   "entrypoints": [
-    "static/css/main.933f2d82.css",
-    "static/js/main.f510c4fe.js"
+    "static/css/main.f16076f8.css",
+    "static/js/main.3b7a0a17.js"
   ]
 }

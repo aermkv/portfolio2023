@@ -28,6 +28,12 @@ const WorkNav = () => {
                         <span className='px-1 py-1 hidden group-hover:block duration-300 text-xl md:text-2xl lg:text-4xl'>Creative coder and designer for an NFT platform</span>
                     </CustomLink>
 
+                    <CustomLink className='group -mt-8 hover:text-gray-600' to='../pages/Danver'>
+                        <span className='text-4xl md:text-6xl lg:text-7xl ease-in-out tracking-tighter hover:tracking-wide hover:font-medium duration-300'>Danver</span>
+                        {/* <Typed className='px-1 py-1 hidden group-hover:block duration-300 text-xl md:text-2xl lg:text-4xl' strings={['Creative coder and designer for an NFT platform']} typeSpeed={2} backSpeed={2} /> */}
+                        <span className='px-1 py-1 hidden group-hover:block duration-300 text-xl md:text-2xl lg:text-4xl'>Visual designer for luxury outdoor kitchen manufacturer</span>
+                    </CustomLink>
+
                     <CustomLink className='group -mt-8 hover:text-gray-600' to='../pages/BlackGlass'>
                         <span className='text-4xl md:text-6xl lg:text-7xl ease-in-out tracking-tighter hover:tracking-wide hover:font-medium duration-300'>Black Glass</span>
                         {/* <Typed className='px-1 py-1 hidden group-hover:block duration-300 text-xl md:text-2xl lg:text-4xl' strings={['Style guide and templates for a business consultancy']} typeSpeed={2} backSpeed={2} /> */}

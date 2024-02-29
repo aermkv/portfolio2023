@@ -25,6 +25,9 @@ import NeogenEdit from '../assets/images/NeogenEdit.mp4'
 import PoapP1 from '../assets/images/PoapP1.png'
 import PoapP2 from '../assets/images/PoapP2.png'
 
+import connectingAnimation from '../assets/images/connectingAnimation.mp4'
+import Components from '../assets/images/Components.png'
+
 import BackArrow from '../assets/images/BackArrow.png'
 
 
@@ -73,6 +76,22 @@ function DoodleLabs2() {
         <div className='flex flex-col w-full'>
           <p className='py-2 md:py-4'>A user profile and collection page.</p>
           <img className='' src={DLProfilePage} />
+        </div>
+      </div>
+
+      <div className='w-full max-w-[1240px] mx-auto py-8 my-8 md:py-4 px-12 md:px-16 grid'>
+        <div className='flex flex-col w-full'>
+          <p className='py-2 md:py-4'>Components and states.</p>
+          <img className='rounded-md' src={Components} />
+        </div>
+      </div>
+
+      <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid md:grid-cols-2 gap-16'>
+        <div className='flex flex-col w-full'>
+        <p className='py-2 md:py-4'>Since some new users were not necessarily familiar with blockchain technology, I took available opportunities to hint at the background processes. A convenient moment to do so was when users minted new artwork, for which we had a three-step animation: Connecting to protocol, Queuing for transaction, and Generating artwork from script. Shown here is the first step.</p>
+        </div>
+        <div className='flex flex-col w-full'>
+          <video src={connectingAnimation} type="video/mp4" autoPlay loop playsInline className='rounded-md'/>
         </div>
       </div>
 

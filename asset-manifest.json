@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio2023/static/css/main.f16076f8.css",
-    "main.js": "/portfolio2023/static/js/main.3b7a0a17.js",
+    "main.css": "/portfolio2023/static/css/main.7b7502cd.css",
+    "main.js": "/portfolio2023/static/js/main.da4ebeb4.js",
     "static/media/BrainBowls.gif": "/portfolio2023/static/media/BrainBowls.ac591e622afd02e98fb7.gif",
     "static/media/6000024.png": "/portfolio2023/static/media/6000024.836d74c7eead7634631c.png",
     "static/media/OnaWine.png": "/portfolio2023/static/media/OnaWine.b5dc088ae537bbf7ea75.png",
     "static/media/CacaoJuiceStrawberry.png": "/portfolio2023/static/media/CacaoJuiceStrawberry.74ec604d935a3624ba6a.png",
     "static/media/DLTweet.mp4": "/portfolio2023/static/media/DLTweet.b204395fc277d4dc0686.mp4",
+    "static/media/Trex_both.png": "/portfolio2023/static/media/Trex_both.6fcee64350d2852b8b3a.png",
     "static/media/BonsaiHeader.png": "/portfolio2023/static/media/BonsaiHeader.2ac8856c4ee81a89d653.png",
     "static/media/DLTweet2.mp4": "/portfolio2023/static/media/DLTweet2.6f46b045a60e57753a60.mp4",
+    "static/media/Trex_desktop.png": "/portfolio2023/static/media/Trex_desktop.6604eacbdd99aeccf43f.png",
     "static/media/PackagingHeader.png": "/portfolio2023/static/media/PackagingHeader.366912fadef66d00aadf.png",
+    "static/media/Trex_mockup.png": "/portfolio2023/static/media/Trex_mockup.b08cb5f01808ac6e6231.png",
     "static/media/DLProfilePage.png": "/portfolio2023/static/media/DLProfilePage.b538a1aceb39654fa8da.png",
     "static/media/DLLanding.png": "/portfolio2023/static/media/DLLanding.bb70e431f7b527f08937.png",
+    "static/media/DanverCover2.png": "/portfolio2023/static/media/DanverCover2.f92c4e23f977bcc0a3f1.png",
     "static/media/MiscPack1.png": "/portfolio2023/static/media/MiscPack1.02204b8da4238c5b2893.png",
     "static/media/NeogenEdit.mp4": "/portfolio2023/static/media/NeogenEdit.a5d762057bb36764f248.mp4",
     "static/media/IMRecordingEdit.mp4": "/portfolio2023/static/media/IMRecordingEdit.9146e250cbfc3bc4bb7e.mp4",
@@ -29,10 +33,12 @@
     "static/media/GateauMain.png": "/portfolio2023/static/media/GateauMain.a9d1d3c5f973add2494f.png",
     "static/media/4000944.png": "/portfolio2023/static/media/4000944.9f912963630a601d9698.png",
     "static/media/BeforeSunriseCD.jpeg": "/portfolio2023/static/media/BeforeSunriseCD.ec91bf15ea563531a9c8.jpeg",
+    "static/media/2024_IBS_Presskit_Cover.jpg": "/portfolio2023/static/media/2024_IBS_Presskit_Cover.475c5fc64d7df5eaf0dc.jpg",
     "static/media/MiscHeader2.png": "/portfolio2023/static/media/MiscHeader2.43d448c990229c61173f.png",
     "static/media/Deckgif2.gif": "/portfolio2023/static/media/Deckgif2.7f62c3c6bc96c971fa77.gif",
     "static/media/DLHeader.png": "/portfolio2023/static/media/DLHeader.bd105f830037489bfb49.png",
     "static/media/Musical3.jpeg": "/portfolio2023/static/media/Musical3.fd909569a558b06e652e.jpeg",
+    "static/media/Trex_mobile.png": "/portfolio2023/static/media/Trex_mobile.c3d19b4e407b30a46acf.png",
     "static/media/BnD1.jpeg": "/portfolio2023/static/media/BnD1.0fea4e3192a0959141ef.jpeg",
     "static/media/BrainBowlsReduced.mp4": "/portfolio2023/static/media/BrainBowlsReduced.f290f85a40034a45f167.mp4",
     "static/media/SWGPosterProcess.png": "/portfolio2023/static/media/SWGPosterProcess.89d6f446ca3ecd1abf53.png",
@@ -40,6 +46,7 @@
     "static/media/Gif3edited.mp4": "/portfolio2023/static/media/Gif3edited.406ca97dda892e54a8ac.mp4",
     "static/media/CNYCSocial.png": "/portfolio2023/static/media/CNYCSocial.82a9eba89273c3d4edff.png",
     "static/media/WarOnFun.jpeg": "/portfolio2023/static/media/WarOnFun.08ae126bd225fac8966e.jpeg",
+    "static/media/connectingAnimation.mp4": "/portfolio2023/static/media/connectingAnimation.496eedc08effb96363c3.mp4",
     "static/media/dl-landing-page.png": "/portfolio2023/static/media/dl-landing-page.5b7c8896bf25999e5170.png",
     "static/media/Gif2edited.mp4": "/portfolio2023/static/media/Gif2edited.d81bbb5270394839d09a.mp4",
     "static/media/PC2.png": "/portfolio2023/static/media/PC2.35c6063675214431ad74.png",
@@ -80,6 +87,7 @@
     "static/media/DLPrintShopUserFlow.png": "/portfolio2023/static/media/DLPrintShopUserFlow.1e798ad7e3f959c60ccf.png",
     "static/media/CNYCWebProto.png": "/portfolio2023/static/media/CNYCWebProto.87d5c1facd92ab4807c1.png",
     "static/media/PoapP2.png": "/portfolio2023/static/media/PoapP2.e6d6c3cb2a815c443bcd.png",
+    "static/media/TrexConfigurator.mp4": "/portfolio2023/static/media/TrexConfigurator.953888afc8a29fef88c4.mp4",
     "static/media/GIFedit.mp4": "/portfolio2023/static/media/GIFedit.3e0ad06e4945eac7f74e.mp4",
     "static/media/PoapP1.png": "/portfolio2023/static/media/PoapP1.0dec7cb83c54c65d3866.png",
     "static/media/DLSiteMap.png": "/portfolio2023/static/media/DLSiteMap.40e4069e55b007884e4b.png",
@@ -107,6 +115,7 @@
     "static/media/BonsaiToasts.png": "/portfolio2023/static/media/BonsaiToasts.9d25a0de100e0ac4a38a.png",
     "static/media/BonsaiEmail2.png": "/portfolio2023/static/media/BonsaiEmail2.3a985298b63955040ab8.png",
     "static/media/BonsaiChecks.png": "/portfolio2023/static/media/BonsaiChecks.1b7339e8f876ab5b0f44.png",
+    "static/media/Components.png": "/portfolio2023/static/media/Components.2009a1e077cd37fd08e1.png",
     "static/media/ProfileActual.png": "/portfolio2023/static/media/ProfileActual.9bc977f5033113a9db83.png",
     "static/media/DLMerch0.png": "/portfolio2023/static/media/DLMerch0.26845dabd5bc2e15bec4.png",
     "static/media/DLMerch3.png": "/portfolio2023/static/media/DLMerch3.824a3509519dd26a4795.png",
@@ -126,11 +135,11 @@
     "static/media/BlackGlassIcons2.png": "/portfolio2023/static/media/BlackGlassIcons2.0f0efd286f843e951497.png",
     "static/media/BlackGlassIcons1.png": "/portfolio2023/static/media/BlackGlassIcons1.85fc882c59c7daeb7497.png",
     "index.html": "/portfolio2023/index.html",
-    "main.f16076f8.css.map": "/portfolio2023/static/css/main.f16076f8.css.map",
-    "main.3b7a0a17.js.map": "/portfolio2023/static/js/main.3b7a0a17.js.map"
+    "main.7b7502cd.css.map": "/portfolio2023/static/css/main.7b7502cd.css.map",
+    "main.da4ebeb4.js.map": "/portfolio2023/static/js/main.da4ebeb4.js.map"
   },
   "entrypoints": [
-    "static/css/main.f16076f8.css",
-    "static/js/main.3b7a0a17.js"
+    "static/css/main.7b7502cd.css",
+    "static/js/main.da4ebeb4.js"
   ]
 }

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio2023/static/css/main.7b7502cd.css",
-    "main.js": "/portfolio2023/static/js/main.da4ebeb4.js",
+    "main.css": "/portfolio2023/static/css/main.66ed959b.css",
+    "main.js": "/portfolio2023/static/js/main.b61bb84d.js",
     "static/media/BrainBowls.gif": "/portfolio2023/static/media/BrainBowls.ac591e622afd02e98fb7.gif",
     "static/media/6000024.png": "/portfolio2023/static/media/6000024.836d74c7eead7634631c.png",
     "static/media/OnaWine.png": "/portfolio2023/static/media/OnaWine.b5dc088ae537bbf7ea75.png",
@@ -10,6 +10,7 @@
     "static/media/Trex_both.png": "/portfolio2023/static/media/Trex_both.6fcee64350d2852b8b3a.png",
     "static/media/BonsaiHeader.png": "/portfolio2023/static/media/BonsaiHeader.2ac8856c4ee81a89d653.png",
     "static/media/DLTweet2.mp4": "/portfolio2023/static/media/DLTweet2.6f46b045a60e57753a60.mp4",
+    "static/media/DL_print_shop_recording.mov": "/portfolio2023/static/media/DL_print_shop_recording.9cc0b031d6b39b54a226.mov",
     "static/media/Trex_desktop.png": "/portfolio2023/static/media/Trex_desktop.6604eacbdd99aeccf43f.png",
     "static/media/PackagingHeader.png": "/portfolio2023/static/media/PackagingHeader.366912fadef66d00aadf.png",
     "static/media/Trex_mockup.png": "/portfolio2023/static/media/Trex_mockup.b08cb5f01808ac6e6231.png",
@@ -46,8 +47,8 @@
     "static/media/Gif3edited.mp4": "/portfolio2023/static/media/Gif3edited.406ca97dda892e54a8ac.mp4",
     "static/media/CNYCSocial.png": "/portfolio2023/static/media/CNYCSocial.82a9eba89273c3d4edff.png",
     "static/media/WarOnFun.jpeg": "/portfolio2023/static/media/WarOnFun.08ae126bd225fac8966e.jpeg",
-    "static/media/connectingAnimation.mp4": "/portfolio2023/static/media/connectingAnimation.496eedc08effb96363c3.mp4",
     "static/media/dl-landing-page.png": "/portfolio2023/static/media/dl-landing-page.5b7c8896bf25999e5170.png",
+    "static/media/Connecting.mp4": "/portfolio2023/static/media/Connecting.7d4561a90dec0d301615.mp4",
     "static/media/Gif2edited.mp4": "/portfolio2023/static/media/Gif2edited.d81bbb5270394839d09a.mp4",
     "static/media/PC2.png": "/portfolio2023/static/media/PC2.35c6063675214431ad74.png",
     "static/media/BeforeSunriseVinyl.jpeg": "/portfolio2023/static/media/BeforeSunriseVinyl.97bf8d754cc470e85cde.jpeg",
@@ -55,7 +56,6 @@
     "static/media/MiscAleva1.png": "/portfolio2023/static/media/MiscAleva1.7d4041f1c010a91bcfa8.png",
     "static/media/Gif1edited.mp4": "/portfolio2023/static/media/Gif1edited.13da5d4f688071085423.mp4",
     "static/media/Tzumi2.png": "/portfolio2023/static/media/Tzumi2.f343d2631a3f8ca07da7.png",
-    "static/media/DLPrintShopPrototype.mp4": "/portfolio2023/static/media/DLPrintShopPrototype.734f107fe72b44acbf77.mp4",
     "static/media/DLMerch.png": "/portfolio2023/static/media/DLMerch.3fada51761c0335ed964.png",
     "static/media/FXMain.png": "/portfolio2023/static/media/FXMain.21f90b2738da4c4ac668.png",
     "static/media/Deck.png": "/portfolio2023/static/media/Deck.ded1b819b4f76e1152ef.png",
@@ -63,8 +63,10 @@
     "static/media/BlackGlass-main.png": "/portfolio2023/static/media/BlackGlass-main.8700832907e8ec8bb96f.png",
     "static/media/GateauAlt.png": "/portfolio2023/static/media/GateauAlt.bf81d5427fffa031a8bb.png",
     "static/media/BrookstoneGoldRender.png": "/portfolio2023/static/media/BrookstoneGoldRender.abf259efebbfa80d8295.png",
+    "static/media/Queuing.mp4": "/portfolio2023/static/media/Queuing.1f44c1bd9913ce8657b4.mp4",
     "static/media/SellSheetSealy.png": "/portfolio2023/static/media/SellSheetSealy.85de45d79073daee0464.png",
     "static/media/Razors1.png": "/portfolio2023/static/media/Razors1.87e395c192f9086af47d.png",
+    "static/media/Generating.mp4": "/portfolio2023/static/media/Generating.413a306e11ae3e456172.mp4",
     "static/media/BGBranding.png": "/portfolio2023/static/media/BGBranding.b65e2d2076345ce46a26.png",
     "static/media/BKVac.jpeg": "/portfolio2023/static/media/BKVac.7c4d923c4d568a41f71e.jpeg",
     "static/media/Kodak2.png": "/portfolio2023/static/media/Kodak2.fdc86d3f59960759ba84.png",
@@ -75,12 +77,12 @@
     "static/media/KodakFactoryFile.png": "/portfolio2023/static/media/KodakFactoryFile.942a8ae60895ceb8e622.png",
     "static/media/BGGrid3.jpg": "/portfolio2023/static/media/BGGrid3.adc6fb9dc907ff3b6d16.jpg",
     "static/media/BrookstoneGold1.png": "/portfolio2023/static/media/BrookstoneGold1.744f11f7843eda49fb16.png",
-    "static/media/DLPrintShopPrototypeEdit.mp4": "/portfolio2023/static/media/DLPrintShopPrototypeEdit.fa57e92786ecde1c097d.mp4",
+    "static/media/DL_new_components.png": "/portfolio2023/static/media/DL_new_components.a174a8e296eaff4a05ff.png",
     "static/media/Razors2.png": "/portfolio2023/static/media/Razors2.fb524bfd9d21f25f4398.png",
-    "static/media/DLPrintShopPrototype2.mp4": "/portfolio2023/static/media/DLPrintShopPrototype2.579587c1cbc4dc8c348d.mp4",
     "static/media/Kodak1.png": "/portfolio2023/static/media/Kodak1.07c6aca0f2271166b4ea.png",
     "static/media/BGGrid2.jpg": "/portfolio2023/static/media/BGGrid2.18129850984bb6d07f67.jpg",
     "static/media/BGP3.png": "/portfolio2023/static/media/BGP3.e3157553897743868859.png",
+    "static/media/DL_old_components.png": "/portfolio2023/static/media/DL_old_components.3d976eb1dd94787c3ff6.png",
     "static/media/BKEmergencyToolTech.png": "/portfolio2023/static/media/BKEmergencyToolTech.d7d116327773f30469b7.png",
     "static/media/BGP1.png": "/portfolio2023/static/media/BGP1.844ea07487324d9624c2.png",
     "static/media/BlackGlass-mainAlt.png": "/portfolio2023/static/media/BlackGlass-mainAlt.5c80b183b53bfce6b563.png",
@@ -135,11 +137,11 @@
     "static/media/BlackGlassIcons2.png": "/portfolio2023/static/media/BlackGlassIcons2.0f0efd286f843e951497.png",
     "static/media/BlackGlassIcons1.png": "/portfolio2023/static/media/BlackGlassIcons1.85fc882c59c7daeb7497.png",
     "index.html": "/portfolio2023/index.html",
-    "main.7b7502cd.css.map": "/portfolio2023/static/css/main.7b7502cd.css.map",
-    "main.da4ebeb4.js.map": "/portfolio2023/static/js/main.da4ebeb4.js.map"
+    "main.66ed959b.css.map": "/portfolio2023/static/css/main.66ed959b.css.map",
+    "main.b61bb84d.js.map": "/portfolio2023/static/js/main.b61bb84d.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b7502cd.css",
-    "static/js/main.da4ebeb4.js"
+    "static/css/main.66ed959b.css",
+    "static/js/main.b61bb84d.js"
   ]
 }

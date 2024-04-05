@@ -33,8 +33,8 @@ import DLPrintAlt3 from '../assets/images/DLPrintAlt3.png'
 import DLPrintAlt4 from '../assets/images/DLPrintAlt4.png'
 import DLPrintAlt5 from '../assets/images/DLPrintAlt5.png'
 import DLPrintAlt6 from '../assets/images/DLPrintAlt6.png'
-import DLPrintShopPrototype from '../assets/images/DLPrintShopPrototype.mp4'
-import DLPrintShopPrototypeEdit from '../assets/images/DLPrintShopPrototypeEdit.mp4'
+// import DLPrintShopPrototype from '../assets/images/DLPrintShopPrototype.mp4'
+// import DLPrintShopPrototypeEdit from '../assets/images/DLPrintShopPrototypeEdit.mp4'
 
 
 import { Link, useMatch, useResolvedPath } from 'react-router-dom'
@@ -181,11 +181,11 @@ function DoodleLabs() {
             </div>
         </div> */}
 
-        <div className='py-8 mx-auto grid grid-cols-1'>
+        {/* <div className='py-8 mx-auto grid grid-cols-1'>
             <div className='flex flex-col text-sm lg:text-xl'>
-                <video src={DLPrintShopPrototypeEdit} type="video/mp4" autoPlay loop playsInline className='drop-shadow-xl rounded-md hover:drop-shadow-2xl duration-300' />
+                <video src={} type="video/mp4" autoPlay loop playsInline className='drop-shadow-xl rounded-md hover:drop-shadow-2xl duration-300' />
             </div>
-        </div>
+        </div> */}
 
         <div className='py-4'>
             <div className='rounded-md border-2 border-black'></div>

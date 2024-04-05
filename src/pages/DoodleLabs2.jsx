@@ -17,7 +17,7 @@ import Vistas from '../assets/images/6000024.png'
 import DLSiteMap from '../assets/images/DLSiteMap.png'
 
 import DLPrintShopUserFlow from '../assets/images/DLPrintShopUserFlow.png'
-import DLPrintShopPrototype2 from '../assets/images/DLPrintShopPrototype2.mp4'
+import DL_print_shop_recording from '../assets/images/DL_print_shop_recording.mov'
 
 import DLMerch from '../assets/images/DLMerch.png'
 import NeogenEdit from '../assets/images/NeogenEdit.mp4'
@@ -25,8 +25,13 @@ import NeogenEdit from '../assets/images/NeogenEdit.mp4'
 import PoapP1 from '../assets/images/PoapP1.png'
 import PoapP2 from '../assets/images/PoapP2.png'
 
-import connectingAnimation from '../assets/images/connectingAnimation.mp4'
+import Connecting from '../assets/images/Connecting.mp4'
+import Queuing from '../assets/images/Queuing.mp4'
+import Generating from '../assets/images/Generating.mp4'
+
 import Components from '../assets/images/Components.png'
+import DL_old_components from '../assets/images/DL_old_components.png'
+import DL_new_components from '../assets/images/DL_new_components.png'
 
 import BackArrow from '../assets/images/BackArrow.png'
 
@@ -81,19 +86,47 @@ function DoodleLabs2() {
 
       <div className='w-full max-w-[1240px] mx-auto py-8 my-8 md:py-4 px-12 md:px-16 grid'>
         <div className='flex flex-col w-full'>
-          <p className='py-2 md:py-4'>Components and states.</p>
-          <img className='rounded-md' src={Components} />
+          <p className='py-2 md:py-4'>Original components.</p>
+          <img className='rounded-md' src={DL_old_components} />
         </div>
       </div>
 
-      <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid md:grid-cols-2 gap-16'>
+      <div className='w-full max-w-[1240px] mx-auto py-8 my-8 md:py-4 px-12 md:px-16 grid'>
+        <div className='flex flex-col w-full'>
+          <p className='py-2 md:py-4'>Revised & updated components.</p>
+          <img className='rounded-md' src={DL_new_components} />
+        </div>
+      </div>
+
+      <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid md:grid-cols-3 gap-16'>
+        <div className='flex flex-col w-full col-span-2'>
+          <p className='py-2 md:py-4'>Since some new users were not necessarily familiar with blockchain technology, I took available opportunities to hint at the background processes. A convenient moment to do so was when users minted new artwork, for which we had a three-step animation: Connecting to protocol, Queuing for transaction, and Generating artwork from script. Shown here is the first step.</p>
+        </div>
+        <div className='flex flex-col w-full'>
+
+        </div>
+      </div>
+
+      <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid md:grid-cols-3 gap-8'>
+        <div className='flex flex-col w-full'>
+          <video className='drop-shadow-xl rounded-md' src={Connecting} type="video/mp4" autoPlay loop muted playsInline />
+        </div>
+        <div className='flex flex-col w-full'>
+          <video className='drop-shadow-xl rounded-md' src={Queuing} type="video/mp4" autoPlay loop muted playsInline />
+        </div>
+        <div className='flex flex-col w-full'>
+          <video className='drop-shadow-xl rounded-md' src={Generating} type="video/mp4" autoPlay loop muted playsInline />
+        </div>  
+      </div>
+
+      {/* <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid md:grid-cols-2 gap-16'>
         <div className='flex flex-col w-full'>
         <p className='py-2 md:py-4'>Since some new users were not necessarily familiar with blockchain technology, I took available opportunities to hint at the background processes. A convenient moment to do so was when users minted new artwork, for which we had a three-step animation: Connecting to protocol, Queuing for transaction, and Generating artwork from script. Shown here is the first step.</p>
         </div>
         <div className='flex flex-col w-full'>
           <video src={connectingAnimation} type="video/mp4" autoPlay loop playsInline className='rounded-md'/>
         </div>
-      </div>
+      </div> */}
 
       <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid'>
         <div className='flex flex-col w-full'>
@@ -132,7 +165,7 @@ function DoodleLabs2() {
 
       <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid'>
         <div className='flex flex-col w-full'>
-          <video src={DLPrintShopPrototype2} type="video/mp4" autoPlay loop playsInline className='rounded-md' />
+          <video src={DL_print_shop_recording} type="video/mp4" autoPlay loop playsInline className='rounded-md' />
         </div>
       </div>
 

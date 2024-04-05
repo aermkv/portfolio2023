@@ -16,6 +16,7 @@ import Packaging from './pages/Packaging'
 import FX from './pages/FX'
 import Misc3 from './pages/Misc3'
 import Danver from './pages/Danver'
+import Presentation from './pages/Presentation'
 import { Route, Routes } from 'react-router-dom'
 
 
@@ -72,6 +73,7 @@ function App() {
           <Route path='/pages/FX' element={<FX />} />
           <Route path='/pages/Misc3' element={<Misc3 />} />
           <Route path='/pages/Danver' element={<Danver />} />
+          <Route path='/pages/Presentation' element={<Presentation />} />
         </Routes>
       </div>
 

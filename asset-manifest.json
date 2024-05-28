@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio2023/static/css/main.66ed959b.css",
-    "main.js": "/portfolio2023/static/js/main.b61bb84d.js",
+    "main.js": "/portfolio2023/static/js/main.22507b5f.js",
     "static/media/BrainBowls.gif": "/portfolio2023/static/media/BrainBowls.ac591e622afd02e98fb7.gif",
     "static/media/6000024.png": "/portfolio2023/static/media/6000024.836d74c7eead7634631c.png",
     "static/media/OnaWine.png": "/portfolio2023/static/media/OnaWine.b5dc088ae537bbf7ea75.png",
     "static/media/CacaoJuiceStrawberry.png": "/portfolio2023/static/media/CacaoJuiceStrawberry.74ec604d935a3624ba6a.png",
     "static/media/DLTweet.mp4": "/portfolio2023/static/media/DLTweet.b204395fc277d4dc0686.mp4",
     "static/media/Trex_both.png": "/portfolio2023/static/media/Trex_both.6fcee64350d2852b8b3a.png",
+    "static/media/DanverHome2.mp4": "/portfolio2023/static/media/DanverHome2.435c0ade187c42cb0bef.mp4",
     "static/media/BonsaiHeader.png": "/portfolio2023/static/media/BonsaiHeader.2ac8856c4ee81a89d653.png",
     "static/media/DLTweet2.mp4": "/portfolio2023/static/media/DLTweet2.6f46b045a60e57753a60.mp4",
     "static/media/DL_print_shop_recording.mov": "/portfolio2023/static/media/DL_print_shop_recording.9cc0b031d6b39b54a226.mov",
@@ -17,6 +18,7 @@
     "static/media/DLProfilePage.png": "/portfolio2023/static/media/DLProfilePage.b538a1aceb39654fa8da.png",
     "static/media/DLLanding.png": "/portfolio2023/static/media/DLLanding.bb70e431f7b527f08937.png",
     "static/media/DanverCover2.png": "/portfolio2023/static/media/DanverCover2.f92c4e23f977bcc0a3f1.png",
+    "static/media/DanverBuildersSideBySide.png": "/portfolio2023/static/media/DanverBuildersSideBySide.b6c2bac909e2573ec919.png",
     "static/media/MiscPack1.png": "/portfolio2023/static/media/MiscPack1.02204b8da4238c5b2893.png",
     "static/media/NeogenEdit.mp4": "/portfolio2023/static/media/NeogenEdit.a5d762057bb36764f248.mp4",
     "static/media/IMRecordingEdit.mp4": "/portfolio2023/static/media/IMRecordingEdit.9146e250cbfc3bc4bb7e.mp4",
@@ -47,6 +49,7 @@
     "static/media/Gif3edited.mp4": "/portfolio2023/static/media/Gif3edited.406ca97dda892e54a8ac.mp4",
     "static/media/CNYCSocial.png": "/portfolio2023/static/media/CNYCSocial.82a9eba89273c3d4edff.png",
     "static/media/WarOnFun.jpeg": "/portfolio2023/static/media/WarOnFun.08ae126bd225fac8966e.jpeg",
+    "static/media/DanverBuildersMobile.jpg": "/portfolio2023/static/media/DanverBuildersMobile.4c21d0da1662a6b773e1.jpg",
     "static/media/dl-landing-page.png": "/portfolio2023/static/media/dl-landing-page.5b7c8896bf25999e5170.png",
     "static/media/Connecting.mp4": "/portfolio2023/static/media/Connecting.7d4561a90dec0d301615.mp4",
     "static/media/Gif2edited.mp4": "/portfolio2023/static/media/Gif2edited.d81bbb5270394839d09a.mp4",
@@ -138,10 +141,10 @@
     "static/media/BlackGlassIcons1.png": "/portfolio2023/static/media/BlackGlassIcons1.85fc882c59c7daeb7497.png",
     "index.html": "/portfolio2023/index.html",
     "main.66ed959b.css.map": "/portfolio2023/static/css/main.66ed959b.css.map",
-    "main.b61bb84d.js.map": "/portfolio2023/static/js/main.b61bb84d.js.map"
+    "main.22507b5f.js.map": "/portfolio2023/static/js/main.22507b5f.js.map"
   },
   "entrypoints": [
     "static/css/main.66ed959b.css",
-    "static/js/main.b61bb84d.js"
+    "static/js/main.22507b5f.js"
   ]
 }

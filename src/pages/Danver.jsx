@@ -9,6 +9,9 @@ import Trex_desktop from '../assets/images/Trex_desktop.png'
 import Trex_mobile from '../assets/images/Trex_mobile.png'
 import Trex_both from '../assets/images/Trex_both.png'
 import TrexConfigurator from '../assets/images/TrexConfigurator.mp4'
+import DanverHome from '../assets/images/DanverHome2.mp4'
+import DanverBuilders from '../assets/images/DanverBuildersSideBySide.png'
+import DanverBuildersMobile from '../assets/images/DanverBuildersMobile.jpg'
 
 import BackArrow from '../assets/images/BackArrow.png'
 
@@ -39,6 +42,33 @@ function Danver() {
       <div className='flex flex-col w-full'>
         <h2 className='pt-2 md:pt-4 text-2xl lg:text-3xl font-semibold'>My Role</h2>
         <p className='py-2 md:py-4'>My role focused on developing the visual identities of the Danver brand as well as its licenses, and the design of digital products associated with the brands or product lines. I also had opportunities to do some editorial design for materials that needed to be available in print and digital formats.</p>
+      </div>
+    </div>
+
+    <div className='py-8'>
+      <div className='rounded-md border-2 border-black'></div>
+    </div>
+
+    <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid md:grid-cols-2 gap-16'>
+      <div className='flex flex-col w-full'>
+        <p className='pt-2 md:pt-4'>In updating the Danver brand and redesigning the website I sought to elevate the brand by opting for an elegant aesthetic with an editorial approach to layout. On pages where I needed to display a lot of content, I used interactive elements that responded to hover and active states and wrote elegant CSS animations for the buttons, helping users focus on one element at a time.</p>
+      </div>
+      <div className='flex flex-col w-full'>
+        <p className='pt-2 md:pt-4'>I made use of extensive negative space and offset images to break up content sections and provide additional 'breathing room' where traditional text and image layouts would have become too dense to flow smoothly.</p>
+      </div>
+    </div>
+
+    <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid'>
+      <div className='flex flex-col w-full'>
+        <p className='py-2 md:py-4'>Updated Danver Trades website, Danver's partnership program portal for dealers, builders, designers, and architects.</p>
+        <video src={DanverHome} type="video/mp4" autoPlay loop playsInline className='rounded-md' />
+      </div>
+    </div>
+
+    <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid'>
+      <div className='flex flex-col w-full'>
+        <p className='py-2 md:py-4'>Desktop and mobile versions of the Danver Builders page.</p>
+        <img className='' src={DanverBuilders} />
       </div>
     </div>
 

@@ -9,7 +9,7 @@ import Trex_desktop from '../assets/images/Trex_desktop.png'
 import Trex_mobile from '../assets/images/Trex_mobile.png'
 import Trex_both from '../assets/images/Trex_both.png'
 import TrexConfigurator from '../assets/images/TrexConfigurator.mp4'
-import DanverHome from '../assets/images/DanverHome2.mp4'
+import DanverRecordingNew from '../assets/images/Danver-newRecording.mp4'
 import DanverBuilders from '../assets/images/DanverBuildersSideBySide.png'
 import DanverBuildersMobile from '../assets/images/DanverBuildersMobile.jpg'
 
@@ -60,8 +60,8 @@ function Danver() {
 
     <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid'>
       <div className='flex flex-col w-full'>
-        <p className='py-2 md:py-4'>Updated Danver Trades website, Danver's partnership program portal for dealers, builders, designers, and architects.</p>
-        <video src={DanverHome} type="video/mp4" autoPlay loop playsInline className='rounded-md' />
+        <p className='py-2 md:py-4'>Subtle CSS features on updated Danver Trades website, Danver's partnership program portal for dealers, builders, designers, and architects.</p>
+        <video src={DanverRecordingNew} type="video/mp4" autoPlay loop playsInline className='rounded-md' />
       </div>
     </div>
 

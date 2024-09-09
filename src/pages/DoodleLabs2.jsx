@@ -32,8 +32,17 @@ import Generating from '../assets/images/Generating.mp4'
 import Components from '../assets/images/Components.png'
 import DL_old_components from '../assets/images/DL_old_components.png'
 import DL_new_components from '../assets/images/DL_new_components.png'
+import DL_UI_components from '../assets/images/DL_UI_components.png'
+
+import DL_mobileHome from '../assets/images/DL_mobileHome.png'
+import DL_mobileHome2 from '../assets/images/DL_mobileHome2.png'
+import DL_mobileProfile from '../assets/images/DL_mobileProfile.png'
+import DL_mobileFocus from '../assets/images/DL_mobileFocus.png'
 
 import BackArrow from '../assets/images/BackArrow.png'
+
+import DL_userPersona1 from '../assets/images/DL_userPersona1.png'
+import DL_userPersona2 from '../assets/images/DL_userPersona2.png'
 
 
 
@@ -79,22 +88,37 @@ function DoodleLabs2() {
           <img className='' src={DLLanding} />
         </div>
         <div className='flex flex-col w-full'>
-          <p className='py-2 md:py-4'>A user profile and collection page.</p>
+          <p className='py-2 md:py-4'>A user profile and collection page</p>
           <img className='' src={DLProfilePage} />
         </div>
       </div>
 
-      <div className='w-full max-w-[1240px] mx-auto py-8 my-8 md:py-4 px-12 md:px-16 grid'>
+      <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid md:grid-cols-3 gap-8'>
+        <div className='flex flex-col w-full'>
+          <p className='py-2 md:py-4'>Mobile Home</p>
+          <img className='' src={DL_mobileHome2} />
+        </div>
+        <div className='flex flex-col w-full'>
+          <p className='py-2 md:py-4'>Mobile Profile</p>
+          <img className='' src={DL_mobileProfile} />
+        </div>
+        <div className='flex flex-col w-full'>
+          <p className='py-2 md:py-4'>Mobile Art Focus</p>
+          <img className='' src={DL_mobileFocus} />
+        </div>  
+      </div>
+
+      {/* <div className='w-full max-w-[1240px] mx-auto py-8 my-8 md:py-4 px-12 md:px-16 grid'>
         <div className='flex flex-col w-full'>
           <p className='py-2 md:py-4'>Original components.</p>
           <img className='rounded-md' src={DL_old_components} />
         </div>
-      </div>
+      </div> */}
 
       <div className='w-full max-w-[1240px] mx-auto py-8 my-8 md:py-4 px-12 md:px-16 grid'>
         <div className='flex flex-col w-full'>
-          <p className='py-2 md:py-4'>Revised & updated components.</p>
-          <img className='rounded-md' src={DL_new_components} />
+          <p className='py-2 md:py-4'>UI components.</p>
+          <img className='rounded-md' src={DL_UI_components} />
         </div>
       </div>
 
@@ -132,6 +156,24 @@ function DoodleLabs2() {
         <div className='flex flex-col w-full'>
           <p className='py-2 md:py-4'>Process: an early site map for doodlelabs.io</p>
           <img className='' src={DLSiteMap} />
+        </div>
+      </div>
+
+      <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid md:grid-cols-3 gap-16'>
+        <div className='flex flex-col w-full col-span-2'>
+          <p className='py-2 md:py-4'>Process: user personas</p>
+        </div>
+        <div className='flex flex-col w-full'>
+
+        </div>
+      </div>
+
+      <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid md:grid-cols-2 gap-8'>
+        <div className='flex flex-col w-full'>
+          <img className='' src={DL_userPersona1} />
+        </div>
+        <div className='flex flex-col w-full'>
+          <img className='' src={DL_userPersona2} />
         </div>
       </div>
 

@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio2023/static/css/main.66ed959b.css",
-    "main.js": "/portfolio2023/static/js/main.22507b5f.js",
+    "main.js": "/portfolio2023/static/js/main.b62e1c8d.js",
     "static/media/BrainBowls.gif": "/portfolio2023/static/media/BrainBowls.ac591e622afd02e98fb7.gif",
     "static/media/6000024.png": "/portfolio2023/static/media/6000024.836d74c7eead7634631c.png",
     "static/media/OnaWine.png": "/portfolio2023/static/media/OnaWine.b5dc088ae537bbf7ea75.png",
     "static/media/CacaoJuiceStrawberry.png": "/portfolio2023/static/media/CacaoJuiceStrawberry.74ec604d935a3624ba6a.png",
     "static/media/DLTweet.mp4": "/portfolio2023/static/media/DLTweet.b204395fc277d4dc0686.mp4",
     "static/media/Trex_both.png": "/portfolio2023/static/media/Trex_both.6fcee64350d2852b8b3a.png",
-    "static/media/DanverHome2.mp4": "/portfolio2023/static/media/DanverHome2.435c0ade187c42cb0bef.mp4",
+    "static/media/Danver-newRecording.mp4": "/portfolio2023/static/media/Danver-newRecording.ca9a519dda383a73cc17.mp4",
     "static/media/BonsaiHeader.png": "/portfolio2023/static/media/BonsaiHeader.2ac8856c4ee81a89d653.png",
     "static/media/DLTweet2.mp4": "/portfolio2023/static/media/DLTweet2.6f46b045a60e57753a60.mp4",
     "static/media/DL_print_shop_recording.mov": "/portfolio2023/static/media/DL_print_shop_recording.9cc0b031d6b39b54a226.mov",
@@ -50,6 +50,8 @@
     "static/media/CNYCSocial.png": "/portfolio2023/static/media/CNYCSocial.82a9eba89273c3d4edff.png",
     "static/media/WarOnFun.jpeg": "/portfolio2023/static/media/WarOnFun.08ae126bd225fac8966e.jpeg",
     "static/media/DanverBuildersMobile.jpg": "/portfolio2023/static/media/DanverBuildersMobile.4c21d0da1662a6b773e1.jpg",
+    "static/media/DL_userPersona2.png": "/portfolio2023/static/media/DL_userPersona2.d9325210bf45641492c2.png",
+    "static/media/DL_userPersona1.png": "/portfolio2023/static/media/DL_userPersona1.fd12fd19b7a95a939c33.png",
     "static/media/dl-landing-page.png": "/portfolio2023/static/media/dl-landing-page.5b7c8896bf25999e5170.png",
     "static/media/Connecting.mp4": "/portfolio2023/static/media/Connecting.7d4561a90dec0d301615.mp4",
     "static/media/Gif2edited.mp4": "/portfolio2023/static/media/Gif2edited.d81bbb5270394839d09a.mp4",
@@ -86,9 +88,11 @@
     "static/media/BGGrid2.jpg": "/portfolio2023/static/media/BGGrid2.18129850984bb6d07f67.jpg",
     "static/media/BGP3.png": "/portfolio2023/static/media/BGP3.e3157553897743868859.png",
     "static/media/DL_old_components.png": "/portfolio2023/static/media/DL_old_components.3d976eb1dd94787c3ff6.png",
+    "static/media/DL_mobileFocus.png": "/portfolio2023/static/media/DL_mobileFocus.8764fd7f782bc715834a.png",
     "static/media/BKEmergencyToolTech.png": "/portfolio2023/static/media/BKEmergencyToolTech.d7d116327773f30469b7.png",
     "static/media/BGP1.png": "/portfolio2023/static/media/BGP1.844ea07487324d9624c2.png",
     "static/media/BlackGlass-mainAlt.png": "/portfolio2023/static/media/BlackGlass-mainAlt.5c80b183b53bfce6b563.png",
+    "static/media/DL_mobileProfile.png": "/portfolio2023/static/media/DL_mobileProfile.19b7428c66f55bbfde9d.png",
     "static/media/DLPrintShopUserFlow.png": "/portfolio2023/static/media/DLPrintShopUserFlow.1e798ad7e3f959c60ccf.png",
     "static/media/CNYCWebProto.png": "/portfolio2023/static/media/CNYCWebProto.87d5c1facd92ab4807c1.png",
     "static/media/PoapP2.png": "/portfolio2023/static/media/PoapP2.e6d6c3cb2a815c443bcd.png",
@@ -97,8 +101,11 @@
     "static/media/PoapP1.png": "/portfolio2023/static/media/PoapP1.0dec7cb83c54c65d3866.png",
     "static/media/DLSiteMap.png": "/portfolio2023/static/media/DLSiteMap.40e4069e55b007884e4b.png",
     "static/media/BGGrid1.jpg": "/portfolio2023/static/media/BGGrid1.c34f359d4a7d60362d9f.jpg",
+    "static/media/DL_UI_components.png": "/portfolio2023/static/media/DL_UI_components.e24ccfa87749ee85f3b2.png",
     "static/media/BonsaiIll2.png": "/portfolio2023/static/media/BonsaiIll2.914fe531ac875d1387f5.png",
+    "static/media/DL_mobileHome2.png": "/portfolio2023/static/media/DL_mobileHome2.3f5c883b62614039a421.png",
     "static/media/DLPrintAlt0.png": "/portfolio2023/static/media/DLPrintAlt0.3412b0c3ac935e8d4d71.png",
+    "static/media/DL_mobileHome.png": "/portfolio2023/static/media/DL_mobileHome.40e462aaead571762183.png",
     "static/media/BonsaiType2.png": "/portfolio2023/static/media/BonsaiType2.2ca3499d9abc0e482851.png",
     "static/media/BlackGlassSchedule1.png": "/portfolio2023/static/media/BlackGlassSchedule1.32ce21df603583288dd3.png",
     "static/media/DLProfiles.png": "/portfolio2023/static/media/DLProfiles.c26290c4e6797be92374.png",
@@ -141,10 +148,10 @@
     "static/media/BlackGlassIcons1.png": "/portfolio2023/static/media/BlackGlassIcons1.85fc882c59c7daeb7497.png",
     "index.html": "/portfolio2023/index.html",
     "main.66ed959b.css.map": "/portfolio2023/static/css/main.66ed959b.css.map",
-    "main.22507b5f.js.map": "/portfolio2023/static/js/main.22507b5f.js.map"
+    "main.b62e1c8d.js.map": "/portfolio2023/static/js/main.b62e1c8d.js.map"
   },
   "entrypoints": [
     "static/css/main.66ed959b.css",
-    "static/js/main.22507b5f.js"
+    "static/js/main.b62e1c8d.js"
   ]
 }

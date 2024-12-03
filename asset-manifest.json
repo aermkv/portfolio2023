@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio2023/static/css/main.66ed959b.css",
-    "main.js": "/portfolio2023/static/js/main.b62e1c8d.js",
+    "main.css": "/portfolio2023/static/css/main.c212cab8.css",
+    "main.js": "/portfolio2023/static/js/main.e4ff4468.js",
     "static/media/BrainBowls.gif": "/portfolio2023/static/media/BrainBowls.ac591e622afd02e98fb7.gif",
     "static/media/6000024.png": "/portfolio2023/static/media/6000024.836d74c7eead7634631c.png",
     "static/media/OnaWine.png": "/portfolio2023/static/media/OnaWine.b5dc088ae537bbf7ea75.png",
@@ -21,6 +21,7 @@
     "static/media/DanverBuildersSideBySide.png": "/portfolio2023/static/media/DanverBuildersSideBySide.b6c2bac909e2573ec919.png",
     "static/media/MiscPack1.png": "/portfolio2023/static/media/MiscPack1.02204b8da4238c5b2893.png",
     "static/media/NeogenEdit.mp4": "/portfolio2023/static/media/NeogenEdit.a5d762057bb36764f248.mp4",
+    "static/media/BioversePrototypeMobile.mp4": "/portfolio2023/static/media/BioversePrototypeMobile.09af6a7a38683b5ab50d.mp4",
     "static/media/IMRecordingEdit.mp4": "/portfolio2023/static/media/IMRecordingEdit.9146e250cbfc3bc4bb7e.mp4",
     "static/media/FXLandingMockup.png": "/portfolio2023/static/media/FXLandingMockup.c6609b16a3413ad2f749.png",
     "static/media/BrookstoneBellHowell.png": "/portfolio2023/static/media/BrookstoneBellHowell.2637c73da46bd54faccd.png",
@@ -143,15 +144,16 @@
     "static/media/BonsaiEmail3.png": "/portfolio2023/static/media/BonsaiEmail3.4f6091443ed15a37417d.png",
     "static/media/DLPrintAlt6.png": "/portfolio2023/static/media/DLPrintAlt6.ee89891c38304f559142.png",
     "static/media/DLPrintAlt1.png": "/portfolio2023/static/media/DLPrintAlt1.7200494995989ebeb4bf.png",
+    "static/media/BioverseLogoUpdate.png": "/portfolio2023/static/media/BioverseLogoUpdate.3c469c6cc248ce752f58.png",
     "static/media/DLPrintAlt2.png": "/portfolio2023/static/media/DLPrintAlt2.8e43d8256bee17a5af71.png",
     "static/media/BlackGlassIcons2.png": "/portfolio2023/static/media/BlackGlassIcons2.0f0efd286f843e951497.png",
     "static/media/BlackGlassIcons1.png": "/portfolio2023/static/media/BlackGlassIcons1.85fc882c59c7daeb7497.png",
     "index.html": "/portfolio2023/index.html",
-    "main.66ed959b.css.map": "/portfolio2023/static/css/main.66ed959b.css.map",
-    "main.b62e1c8d.js.map": "/portfolio2023/static/js/main.b62e1c8d.js.map"
+    "main.c212cab8.css.map": "/portfolio2023/static/css/main.c212cab8.css.map",
+    "main.e4ff4468.js.map": "/portfolio2023/static/js/main.e4ff4468.js.map"
   },
   "entrypoints": [
-    "static/css/main.66ed959b.css",
-    "static/js/main.b62e1c8d.js"
+    "static/css/main.c212cab8.css",
+    "static/js/main.e4ff4468.js"
   ]
 }

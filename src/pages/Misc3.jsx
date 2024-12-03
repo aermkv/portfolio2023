@@ -25,6 +25,9 @@ import CNYCIcons from '../assets/images/CNYCIcons.png'
 import PlayNStayLogos from '../assets/images/PlayNStayLogos.png'
 import BrainBowlsReduced from '../assets/images/BrainBowlsReduced.mp4'
 
+import BioversePrototypeMobile from '../assets/images/BioversePrototypeMobile.mp4'
+import BioverseLogoUpdate from '../assets/images/BioverseLogoUpdate.png'
+
 function Misc3() {
   return (
     <div className='w-screen'>
@@ -135,6 +138,21 @@ function Misc3() {
         </div>
         <div className='flex flex-col w-full '>
           <img className='drop-shadow-md rounded-md hover:drop-shadow-lg duration-300' src={SWGPosterProcess} alt='Sean Watson Graham - Process' />
+          <p className='pt-4 text-xs lg:text-sm md:text-right text-zinc-600'>Mobile prototype preview.</p>
+        </div>
+      </div>
+
+      <div className='py-8'>
+        <div className='rounded-md border-2 border-black'></div>
+      </div>
+
+      <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid grid-cols-1 md:grid-cols-3 gap-16'>
+        <div className='flex flex-col w-full md:col-span-2'>
+          <p className='pt-2 md:pt-4'>A quick project for a telehealth prescription and supplement provider that involved modernizing an existing logo as well a product-specific landing page designed for high conversion by segueing into a rapid onboarding funnel.</p>
+          <img className='drop-shadow-md rounded-md hover:drop-shadow-lg duration-300 py-12' src={BioverseLogoUpdate} alt='Bioverse Logo Update' />
+        </div>
+        <div className='flex flex-col w-full md:col-span-1'>
+          <video src={BioversePrototypeMobile} type="video/mp4" autoPlay loop playsInline className='rounded-md' />
           <p className='pt-4 text-xs lg:text-sm md:text-right text-zinc-600'>Process and dark poster version.</p>
         </div>
       </div>

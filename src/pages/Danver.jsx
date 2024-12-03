@@ -68,7 +68,18 @@ function Danver() {
     <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid'>
       <div className='flex flex-col w-full'>
         <p className='py-2 md:py-4'>Desktop and mobile versions of the Danver Builders page.</p>
-        <img className='' src={DanverBuilders} />
+        <img className='rounded-md' src={DanverBuilders} />
+      </div>
+    </div>
+
+    <div className='py-8'>
+      <div className='rounded-md border-2 border-black'></div>
+    </div>
+
+    <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid'>
+      <div className='flex flex-col w-full'>
+        <p className='py-2 md:py-4'>Brown Jordan Outdoor Kitchens cabinetry guide: a branded document designed to introduce the modular cabinetry options offered as well as the brand's aesthetic range.</p>
+        <div className='relative py-4 w-full mx-auto rounded-md'><iframe className='relative border-none w-full min-h-[640px] left-0 top-0 rounded-md' src="https://online.fliphtml5.com/wnqio/znnv/"  seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" ></iframe></div>
       </div>
     </div>
 

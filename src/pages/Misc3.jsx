@@ -28,6 +28,12 @@ import BrainBowlsReduced from '../assets/images/BrainBowlsReduced.mp4'
 import BioversePrototypeMobile from '../assets/images/BioversePrototypeMobile.mp4'
 import BioverseLogoUpdate from '../assets/images/BioverseLogoUpdate.png'
 
+import netzero1 from '../assets/images/NetZero-logo-1.png'
+import netzero2 from '../assets/images/NetZero-logo-2.png'
+import netzero3 from '../assets/images/NetZero-logo-3.png'
+import netzero4 from '../assets/images/NetZero-logo-4.png'
+import netzero5 from '../assets/images/NetZero-logo-5.png'
+
 function Misc3() {
   return (
     <div className='w-screen'>
@@ -161,27 +167,75 @@ function Misc3() {
         <div className='rounded-md border-2 border-black'></div>
       </div>
 
+      // NETZERO
+
+      <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid md:grid-cols-3 gap-16'>
+        <div className='flex flex-col w-full col-span-2'>
+          <h2 className='pt-2 md:pt-4 text-2xl lg:text-3xl font-semibold'>NetZero Logo</h2>
+          <p className='pt-2 md:pt-4'>My process in designing a logo for a combined solar and EV energy use and storage application.</p>
+        </div>
+        <div className='flex flex-col w-full'></div>
+      </div>
+
+      <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16'>
+        <div className='flex flex-col w-full col-span-2'>
+          <img className='rounded-md' src={netzero1} alt='Vinyl' />
+          <p className='pt-4 text-xs lg:text-sm text-zinc-600'>Initial visual ideation session.</p>
+        </div>
+      </div>
+
+      <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16'>
+        <div className='flex flex-col w-full col-span-2'>
+          <img className='rounded-md' src={netzero2} alt='Vinyl' />
+          <p className='pt-4 text-xs lg:text-sm text-zinc-600'>Refined and expanded options after feedback.</p>
+        </div>
+      </div>
+
+      <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16'>
+        <div className='flex flex-col w-full col-span-2'>
+          <img className='rounded-md' src={netzero3} alt='Vinyl' />
+          <p className='pt-4 text-xs lg:text-sm text-zinc-600'>Final round of presented options.</p>
+        </div>
+      </div>
+
+      <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16'>
+        <div className='flex flex-col w-full col-span-2'>
+          <img className='rounded-md' src={netzero4} alt='Vinyl' />
+          <p className='pt-4 text-xs lg:text-sm text-zinc-600'>Selected logo with typography exploration.</p>
+        </div>
+      </div>
+
+      <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16'>
+        <div className='flex flex-col w-full col-span-2'>
+          <img className='rounded-md' src={netzero5} alt='Vinyl' />
+          <p className='pt-4 text-xs lg:text-sm text-zinc-600'>Final result.</p>
+        </div>
+      </div>
+
+      <div className='py-8'>
+        <div className='rounded-md border-2 border-black'></div>
+      </div>
+
       <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid md:grid-cols-3 gap-16'>
         <div className='flex flex-col w-full col-span-2'>
           <h2 className='pt-2 md:pt-4 text-2xl lg:text-3xl font-semibold'>Pitch Deck Templates</h2>
           <p className='pt-2 md:pt-4'>I've always thought that pitch decks can be much more captivating than the ones we're accustomed to seeing. I've put together several template decks that have helped me build others in my professional experience.</p>
         </div>
         <div className='flex flex-col w-full'>
-
         </div>
       </div>
 
       <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16'>
         <div className='flex flex-col w-full col-span-2'>
           <img className='rounded-md' src={Deckgif} alt='Tech Pack' />
-          <p className='pt-4 text-xs lg:text-sm text-zinc-600'>Vinyl and CD labels.</p>
+          <p className='pt-4 text-xs lg:text-sm text-zinc-600'>Sample pitch deck template run-through.</p>
         </div>
       </div>
 
       <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16'>
         <div className='flex flex-col w-full col-span-2'>
           <img className='rounded-md' src={Deck} alt='Tech Pack' />
-          <p className='pt-4 text-xs lg:text-sm text-zinc-600'>Vinyl and CD labels.</p>
+          <p className='pt-4 text-xs lg:text-sm text-zinc-600'>Individual template pages.</p>
         </div>
       </div>
 

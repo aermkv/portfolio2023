@@ -7,6 +7,7 @@ import FXIconLogo from '../assets/images/FXIconLogo.png'
 import FXIcons1 from '../assets/images/FXIcons1.png'
 import FXIcons2 from '../assets/images/FXIcons2.png'
 import BackArrow from '../assets/images/BackArrow.png'
+import cabcad from '../assets/images/cab-cad.mp4'
 
 import { Link, useMatch, useResolvedPath } from 'react-router-dom'
 
@@ -77,6 +78,25 @@ function Framexpert() {
             <img className='drop-shadow-md rounded-md hover:drop-shadow-lg duration-300' src={FXIcons2} alt='MayCAD Logo' />
           </div>
         </div>
+
+        <div className='py-8 pt-12'>
+          <div className='rounded-md border-2 border-black'></div>
+        </div>
+
+      <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid md:grid-cols-3 gap-16'>
+        <div className='flex flex-col w-full col-span-2'>
+          <p className='py-2 md:py-4'>More recently, the plan has been to build a more universal configurator that can be adapted for various products and applications. I have been designing and prototyping a simple, clean, functional UI that will adapt easily to new developments.</p>
+        </div>
+        <div className='flex flex-col w-full'>
+
+        </div>
+      </div>
+
+      <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid'>
+        <div className='flex flex-col w-full'>
+          <video src={cabcad} type="video/mp4" autoPlay loop playsInline className='rounded-md' />
+        </div>
+      </div>
 
         <div className='py-12 mx-auto grid md:grid-cols-3 gap-8'>
             <CustomLink to='/'>

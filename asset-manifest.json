@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio2023/static/css/main.c212cab8.css",
-    "main.js": "/portfolio2023/static/js/main.e4ff4468.js",
+    "main.js": "/portfolio2023/static/js/main.6879fb01.js",
     "static/media/BrainBowls.gif": "/portfolio2023/static/media/BrainBowls.ac591e622afd02e98fb7.gif",
     "static/media/6000024.png": "/portfolio2023/static/media/6000024.836d74c7eead7634631c.png",
     "static/media/OnaWine.png": "/portfolio2023/static/media/OnaWine.b5dc088ae537bbf7ea75.png",
@@ -82,6 +82,7 @@
     "static/media/MiscPack2.jpeg": "/portfolio2023/static/media/MiscPack2.7fddf26c149c8460ec01.jpeg",
     "static/media/KodakFactoryFile.png": "/portfolio2023/static/media/KodakFactoryFile.942a8ae60895ceb8e622.png",
     "static/media/BGGrid3.jpg": "/portfolio2023/static/media/BGGrid3.adc6fb9dc907ff3b6d16.jpg",
+    "static/media/cab-cad.mp4": "/portfolio2023/static/media/cab-cad.97afb6b0ccbbc0034cc9.mp4",
     "static/media/BrookstoneGold1.png": "/portfolio2023/static/media/BrookstoneGold1.744f11f7843eda49fb16.png",
     "static/media/DL_new_components.png": "/portfolio2023/static/media/DL_new_components.a174a8e296eaff4a05ff.png",
     "static/media/Razors2.png": "/portfolio2023/static/media/Razors2.fb524bfd9d21f25f4398.png",
@@ -150,10 +151,10 @@
     "static/media/BlackGlassIcons1.png": "/portfolio2023/static/media/BlackGlassIcons1.85fc882c59c7daeb7497.png",
     "index.html": "/portfolio2023/index.html",
     "main.c212cab8.css.map": "/portfolio2023/static/css/main.c212cab8.css.map",
-    "main.e4ff4468.js.map": "/portfolio2023/static/js/main.e4ff4468.js.map"
+    "main.6879fb01.js.map": "/portfolio2023/static/js/main.6879fb01.js.map"
   },
   "entrypoints": [
     "static/css/main.c212cab8.css",
-    "static/js/main.e4ff4468.js"
+    "static/js/main.6879fb01.js"
   ]
 }

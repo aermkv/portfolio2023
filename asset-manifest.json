@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio2023/static/css/main.c212cab8.css",
-    "main.js": "/portfolio2023/static/js/main.6c951b0a.js",
+    "main.js": "/portfolio2023/static/js/main.10a18939.js",
     "static/media/BrainBowls.gif": "/portfolio2023/static/media/BrainBowls.ac591e622afd02e98fb7.gif",
     "static/media/6000024.png": "/portfolio2023/static/media/6000024.836d74c7eead7634631c.png",
     "static/media/OnaWine.png": "/portfolio2023/static/media/OnaWine.b5dc088ae537bbf7ea75.png",
@@ -119,6 +119,7 @@
     "static/media/BonsaiEmail1.png": "/portfolio2023/static/media/BonsaiEmail1.c0373c9e0ffe44352d64.png",
     "static/media/BonsaiIll1.png": "/portfolio2023/static/media/BonsaiIll1.47555e003ee193aeaa01.png",
     "static/media/BonsaiRadio.png": "/portfolio2023/static/media/BonsaiRadio.4ff8c7275b89a72c0f87.png",
+    "static/media/NetZero-logo-2.png": "/portfolio2023/static/media/NetZero-logo-2.ec8a7093390d89060067.png",
     "static/media/PlayNStayLogos.png": "/portfolio2023/static/media/PlayNStayLogos.dba7fb73c9d43aa20f4f.png",
     "static/media/ProfileEarly.png": "/portfolio2023/static/media/ProfileEarly.7133e7cecbf8ef83b24e.png",
     "static/media/DLMerch2.png": "/portfolio2023/static/media/DLMerch2.c5957391b9bb79d97242.png",
@@ -143,18 +144,22 @@
     "static/media/DLPrintAlt3.png": "/portfolio2023/static/media/DLPrintAlt3.a1d4258087f5fca7807e.png",
     "static/media/FXDesktop.png": "/portfolio2023/static/media/FXDesktop.6b18b93b89845745a55f.png",
     "static/media/BonsaiEmail3.png": "/portfolio2023/static/media/BonsaiEmail3.4f6091443ed15a37417d.png",
+    "static/media/NetZero-logo-4.png": "/portfolio2023/static/media/NetZero-logo-4.b091f92a9b2197e7b529.png",
     "static/media/DLPrintAlt6.png": "/portfolio2023/static/media/DLPrintAlt6.ee89891c38304f559142.png",
     "static/media/DLPrintAlt1.png": "/portfolio2023/static/media/DLPrintAlt1.7200494995989ebeb4bf.png",
     "static/media/BioverseLogoUpdate.png": "/portfolio2023/static/media/BioverseLogoUpdate.3c469c6cc248ce752f58.png",
+    "static/media/NetZero-logo-1.png": "/portfolio2023/static/media/NetZero-logo-1.ef5abaffcc3a2264bd66.png",
     "static/media/DLPrintAlt2.png": "/portfolio2023/static/media/DLPrintAlt2.8e43d8256bee17a5af71.png",
+    "static/media/NetZero-logo-5.png": "/portfolio2023/static/media/NetZero-logo-5.e89ca61219c3dd3c5f62.png",
+    "static/media/NetZero-logo-3.png": "/portfolio2023/static/media/NetZero-logo-3.72283f3f6b92640efc10.png",
     "static/media/BlackGlassIcons2.png": "/portfolio2023/static/media/BlackGlassIcons2.0f0efd286f843e951497.png",
     "static/media/BlackGlassIcons1.png": "/portfolio2023/static/media/BlackGlassIcons1.85fc882c59c7daeb7497.png",
     "index.html": "/portfolio2023/index.html",
     "main.c212cab8.css.map": "/portfolio2023/static/css/main.c212cab8.css.map",
-    "main.6c951b0a.js.map": "/portfolio2023/static/js/main.6c951b0a.js.map"
+    "main.10a18939.js.map": "/portfolio2023/static/js/main.10a18939.js.map"
   },
   "entrypoints": [
     "static/css/main.c212cab8.css",
-    "static/js/main.6c951b0a.js"
+    "static/js/main.10a18939.js"
   ]
 }

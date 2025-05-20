@@ -33,6 +33,7 @@ import netzero2 from '../assets/images/NetZero-logo-2.png'
 import netzero3 from '../assets/images/NetZero-logo-3.png'
 import netzero4 from '../assets/images/NetZero-logo-4.png'
 import netzero5 from '../assets/images/NetZero-logo-5.png'
+import netzero6 from '../assets/images/NetZero-logo-6.png'
 
 function Misc3() {
   return (
@@ -167,7 +168,7 @@ function Misc3() {
         <div className='rounded-md border-2 border-black'></div>
       </div>
 
-      // NETZERO
+      {/* ////////// NETZERO */}
 
       <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid md:grid-cols-3 gap-16'>
         <div className='flex flex-col w-full col-span-2'>
@@ -186,7 +187,7 @@ function Misc3() {
 
       <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16'>
         <div className='flex flex-col w-full col-span-2'>
-          <img className='rounded-md' src={netzero2} alt='Vinyl' />
+          <img className='rounded-md' src={netzero6} alt='Vinyl' />
           <p className='pt-4 text-xs lg:text-sm text-zinc-600'>Refined and expanded options after feedback.</p>
         </div>
       </div>

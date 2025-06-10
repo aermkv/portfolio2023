@@ -153,6 +153,8 @@ function Misc3() {
         <div className='rounded-md border-2 border-black'></div>
       </div>
 
+      {/* ////////// BIOVERSE */}
+
       <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid grid-cols-1 md:grid-cols-3 gap-16'>
         <div className='flex flex-col w-full md:col-span-2'>
           <p className='pt-2 md:pt-4'>A quick project for a telehealth prescription and supplement provider that involved modernizing an existing logo as well a product-specific landing page designed for high conversion by segueing into a rapid onboarding funnel.</p>
@@ -160,7 +162,7 @@ function Misc3() {
         </div>
         <div className='flex flex-col w-full md:col-span-1'>
           <video src={BioversePrototypeMobile} type="video/mp4" autoPlay loop playsInline className='rounded-md' />
-          <p className='pt-4 text-xs lg:text-sm md:text-right text-zinc-600'>Process and dark poster version.</p>
+          <p className='pt-4 text-xs lg:text-sm md:text-right text-zinc-600'>Onboarding funnel - early prototype.</p>
         </div>
       </div>
 

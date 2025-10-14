@@ -17,6 +17,7 @@ import FX from './pages/FX'
 import Misc3 from './pages/Misc3'
 import Danver from './pages/Danver'
 import Presentation from './pages/Presentation'
+import NetZero from './pages/NetZero'
 import { Route, Routes } from 'react-router-dom'
 
 
@@ -74,6 +75,7 @@ function App() {
           <Route path='/pages/Misc3' element={<Misc3 />} />
           <Route path='/pages/Danver' element={<Danver />} />
           <Route path='/pages/Presentation' element={<Presentation />} />
+          <Route path='/pages/NetZero' element={<NetZero />} />
         </Routes>
       </div>
 

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio2023/static/css/main.c212cab8.css",
-    "main.js": "/portfolio2023/static/js/main.479e2853.js",
+    "main.css": "/portfolio2023/static/css/main.fd2c8e03.css",
+    "main.js": "/portfolio2023/static/js/main.402f9ec7.js",
     "static/media/BrainBowls.gif": "/portfolio2023/static/media/BrainBowls.ac591e622afd02e98fb7.gif",
     "static/media/6000024.png": "/portfolio2023/static/media/6000024.836d74c7eead7634631c.png",
     "static/media/OnaWine.png": "/portfolio2023/static/media/OnaWine.b5dc088ae537bbf7ea75.png",
@@ -12,6 +12,7 @@
     "static/media/BonsaiHeader.png": "/portfolio2023/static/media/BonsaiHeader.2ac8856c4ee81a89d653.png",
     "static/media/DLTweet2.mp4": "/portfolio2023/static/media/DLTweet2.6f46b045a60e57753a60.mp4",
     "static/media/DL_print_shop_recording.mov": "/portfolio2023/static/media/DL_print_shop_recording.9cc0b031d6b39b54a226.mov",
+    "static/media/oscafebrand.jpg": "/portfolio2023/static/media/oscafebrand.9d10da9ebf56ed30712a.jpg",
     "static/media/Trex_desktop.png": "/portfolio2023/static/media/Trex_desktop.6604eacbdd99aeccf43f.png",
     "static/media/PackagingHeader.png": "/portfolio2023/static/media/PackagingHeader.366912fadef66d00aadf.png",
     "static/media/Trex_mockup.png": "/portfolio2023/static/media/Trex_mockup.b08cb5f01808ac6e6231.png",
@@ -34,6 +35,9 @@
     "static/media/Tzumi1.png": "/portfolio2023/static/media/Tzumi1.914c0841899b50c20d9b.png",
     "static/media/Deckgif.gif": "/portfolio2023/static/media/Deckgif.11bd04ea72db1970f550.gif",
     "static/media/BGP2.png": "/portfolio2023/static/media/BGP2.da52a10e36c41bc748a8.png",
+    "static/media/nzWelcomePrototype.mp4": "/portfolio2023/static/media/nzWelcomePrototype.8b29f36ff04fbd09925e.mp4",
+    "static/media/nzflow.png": "/portfolio2023/static/media/nzflow.2adfefebbc83867a3092.png",
+    "static/media/NetzeroHeader.jpg": "/portfolio2023/static/media/NetzeroHeader.b9889e9621fa3d17dc17.jpg",
     "static/media/GateauMain.png": "/portfolio2023/static/media/GateauMain.a9d1d3c5f973add2494f.png",
     "static/media/4000944.png": "/portfolio2023/static/media/4000944.9f912963630a601d9698.png",
     "static/media/BeforeSunriseCD.jpeg": "/portfolio2023/static/media/BeforeSunriseCD.ec91bf15ea563531a9c8.jpeg",
@@ -42,6 +46,7 @@
     "static/media/Deckgif2.gif": "/portfolio2023/static/media/Deckgif2.7f62c3c6bc96c971fa77.gif",
     "static/media/DLHeader.png": "/portfolio2023/static/media/DLHeader.bd105f830037489bfb49.png",
     "static/media/Musical3.jpeg": "/portfolio2023/static/media/Musical3.fd909569a558b06e652e.jpeg",
+    "static/media/oscafebags.jpg": "/portfolio2023/static/media/oscafebags.a268d3d4d6f949b8a9f4.jpg",
     "static/media/Trex_mobile.png": "/portfolio2023/static/media/Trex_mobile.c3d19b4e407b30a46acf.png",
     "static/media/BnD1.jpeg": "/portfolio2023/static/media/BnD1.0fea4e3192a0959141ef.jpeg",
     "static/media/BrainBowlsReduced.mp4": "/portfolio2023/static/media/BrainBowlsReduced.f290f85a40034a45f167.mp4",
@@ -109,8 +114,12 @@
     "static/media/DLPrintAlt0.png": "/portfolio2023/static/media/DLPrintAlt0.3412b0c3ac935e8d4d71.png",
     "static/media/DL_mobileHome.png": "/portfolio2023/static/media/DL_mobileHome.40e462aaead571762183.png",
     "static/media/BonsaiType2.png": "/portfolio2023/static/media/BonsaiType2.2ca3499d9abc0e482851.png",
+    "static/media/nz_today.png": "/portfolio2023/static/media/nz_today.e00af9c0353aea96833b.png",
+    "static/media/nz_month.png": "/portfolio2023/static/media/nz_month.965936e7c74b80322524.png",
     "static/media/BlackGlassSchedule1.png": "/portfolio2023/static/media/BlackGlassSchedule1.32ce21df603583288dd3.png",
+    "static/media/nz_year.png": "/portfolio2023/static/media/nz_year.389447363d8295e466d7.png",
     "static/media/DLProfiles.png": "/portfolio2023/static/media/DLProfiles.c26290c4e6797be92374.png",
+    "static/media/nz_lifetime.png": "/portfolio2023/static/media/nz_lifetime.1a96b0c510e311acceb3.png",
     "static/media/CNYCIcons.png": "/portfolio2023/static/media/CNYCIcons.8e3041017bd1bdbc04d4.png",
     "static/media/BonsaiType1.png": "/portfolio2023/static/media/BonsaiType1.16b2858942198ff08338.png",
     "static/media/BlackGlassHeader.png": "/portfolio2023/static/media/BlackGlassHeader.0c234b1a2987bf661c26.png",
@@ -156,11 +165,11 @@
     "static/media/BlackGlassIcons2.png": "/portfolio2023/static/media/BlackGlassIcons2.0f0efd286f843e951497.png",
     "static/media/BlackGlassIcons1.png": "/portfolio2023/static/media/BlackGlassIcons1.85fc882c59c7daeb7497.png",
     "index.html": "/portfolio2023/index.html",
-    "main.c212cab8.css.map": "/portfolio2023/static/css/main.c212cab8.css.map",
-    "main.479e2853.js.map": "/portfolio2023/static/js/main.479e2853.js.map"
+    "main.fd2c8e03.css.map": "/portfolio2023/static/css/main.fd2c8e03.css.map",
+    "main.402f9ec7.js.map": "/portfolio2023/static/js/main.402f9ec7.js.map"
   },
   "entrypoints": [
-    "static/css/main.c212cab8.css",
-    "static/js/main.479e2853.js"
+    "static/css/main.fd2c8e03.css",
+    "static/js/main.402f9ec7.js"
   ]
 }

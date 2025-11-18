@@ -1,9 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.google.com/specimen/Martian+Mono?category=Monospace');
-@import url('https://fonts.google.com/specimen/Josefin+Sans?category=Sans+Serif');
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Scope+One&display=swap');
 
 body {
   background-color: #FAFAFA;
@@ -11,9 +12,15 @@ body {
   padding: 0;
 }
 
-ul, li, h1, h2, h3, h4, p, span {
+ul, li, h1, p {
   list-style-type: none;
+  font-family: 'Scope One', serif;
+  font-weight: 200;
+}
+
+span, h2, h3, h4 {
   font-family: 'Shippori Antique B1', sans-serif;
+  list-style-type: none;
 }
 
 div {

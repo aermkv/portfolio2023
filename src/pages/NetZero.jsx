@@ -10,6 +10,17 @@ import netzero3 from '../assets/images/NetZero-logo-3.png'
 import netzero4 from '../assets/images/NetZero-logo-4.png'
 import netzero5 from '../assets/images/NetZero-logo-5.png'
 import netzero6 from '../assets/images/NetZero-logo-6.png'
+import nzWelcomePrototype from '../assets/images/nzWelcomePrototype.mp4'
+import Connecting from '../assets/images/Connecting.mp4'
+
+import nz_today from '../assets/images/nz_today.png'
+import nz_month from '../assets/images/nz_month.png'
+import nz_year from '../assets/images/nz_year.png'
+import nz_lifetime from '../assets/images/nz_lifetime.png'
+
+import netzeroHeader from '../assets/images/NetzeroHeader.jpg'
+
+import nzflow from '../assets/images/nzflow.png'
 
 function NetZero() {
   return (
@@ -23,18 +34,20 @@ function NetZero() {
 
       <div className='max-w-[1240px] mx-auto px-0'>
 
-        {/* <img className='' src={MiscHeader2} alt='Doodle Labs Header' /> */}
+        <img className='' src={netzeroHeader} alt='NetZero Header' />
 
       </div>
 
-      <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid md:grid-cols-3 gap-16'>
-        <div className='flex flex-col w-full col-span-2'>
-          <p className='pt-2 md:pt-4'>My earliest design work was on small individual projects including posters for musicals, album artwork for bands (including work for Warner Music Canada), packaging for food and beverage products, as well as several interships with an upscale residential architecture boutique where I worked as a designer and 3D technical artist.</p>
-        </div>
-        <div className='flex flex-col w-full'>
-
-        </div>
+      <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid md:grid-cols-2 gap-16'>
+      <div className='flex flex-col w-full'>
+        <h2 className='pt-2 md:pt-4 text-2xl lg:text-3xl font-semibold'>NetZero</h2>
+        <p className='pt-2 md:pt-4'>NetZero is a combined solar and EV energy use and storage tracking application that uses Tesla's API to provide extended Powerwall data, management, and automation options.</p>
       </div>
+      <div className='flex flex-col w-full'>
+        <h2 className='pt-2 md:pt-4 text-2xl lg:text-3xl font-semibold'>My Role</h2>
+        <p className='py-2 md:py-4'>I designed a new logo and updated the visual components of the application to create seamless, low-friction paths for user customization as well as improving data displays and visualizations.</p>
+      </div>
+    </div>
 
       <div className='py-8'>
         <div className='rounded-md border-2 border-black'></div>
@@ -88,12 +101,60 @@ function NetZero() {
         <div className='rounded-md border-2 border-black'></div>
       </div>
 
+      <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid md:grid-cols-3 grid-cols-1 gap-16'>
+        <div className='flex flex-col w-full'>
+
+        </div>
+        <div className='flex flex-col w-full md:px-0 px-[15%]'>
+          <video className='drop-shadow-xl rounded-md' src={nzWelcomePrototype} type="video/mp4" autoPlay loop muted playsInline />
+        </div>
+        <div className='flex flex-col w-full col-span-1 justify-center'>
+          <p className='py-2 md:py-4'>A simple but attractive welcome carousel that guuides new users through the functions and features available in the application.</p>
+        </div>
+      </div>
+
+      <div className='py-8'>
+        <div className='rounded-md border-2 border-black'></div>
+      </div>
+
+      <p className='w-full max-w-[1240px] mx-auto py-4 md:py-8 px-12 md:px-16'>Data displays over different time periods.</p>
+      <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid md:grid-cols-4 grid-cols-2 gap-8'>
+        <div className='flex flex-col w-full'>
+          <img className='rounded-md' src={nz_today} />
+          <p className='pt-4 text-xs lg:text-sm text-zinc-600 text-center'>Day</p>
+        </div>
+        <div className='flex flex-col w-full'>
+          <img className='rounded-md' src={nz_month} />
+          <p className='pt-4 text-xs lg:text-sm text-zinc-600 text-center'>Month</p>
+        </div>
+        <div className='flex flex-col w-full'>
+          <img className='rounded-md' src={nz_year} />
+          <p className='pt-4 text-xs lg:text-sm text-zinc-600 text-center'>Year</p>
+        </div>
+        <div className='flex flex-col w-full'>
+          <img className='rounded-md' src={nz_lifetime} />
+          <p className='pt-4 text-xs lg:text-sm text-zinc-600 text-center'>Lifetime</p>
+        </div>
+      </div>
+
+      <div className='py-8'>
+        <div className='rounded-md border-2 border-black'></div>
+      </div>
+
+      <p className='w-full max-w-[1240px] mx-auto py-4 md:py-8 px-12 md:px-16'>Simple flow showing two examples of setting automations.</p>
+      <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16'>
+        <div className='flex flex-col w-full col-span-2'>
+          <img className='rounded-md' src={nzflow} alt='Automation Set Flow' />
+          {/* <p className='pt-4 text-xs lg:text-sm text-zinc-600'>Simple flow for setting automations.</p> */}
+        </div>
+      </div>
+
 
 
       <div className='py-12 w-full max-w-[1240px] mx-auto px-12 md:px-16 grid md:grid-cols-3 gap-8'>
       <CustomLink to='/'>
         <div className='md:col-span-2 text-justify border-black border-2 hover:text-white hover:bg-black duration-300'>
-          <p className='mx-2 my-2 text-sm lg:text-xl'>return to home</p>
+          <h4 className='mx-2 my-2 text-sm lg:text-xl'>return to home</h4>
         </div>
       </CustomLink>
     </div>

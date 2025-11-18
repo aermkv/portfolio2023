@@ -29,10 +29,10 @@ const WorkNav = () => {
                         <span className='px-1 py-1 hidden group-hover:block duration-300 text-xl md:text-2xl lg:text-4xl'>Visual designer for luxury outdoor kitchen manufacturer</span>
                     </CustomLink>
 
-                    {/* <CustomLink className='group -mt-8 hover:text-gray-600' to='../pages/NetZero'>
+                    <CustomLink className='group -mt-8 hover:text-gray-600' to='../pages/NetZero'>
                         <span className='text-4xl md:text-6xl lg:text-7xl ease-in-out tracking-tighter hover:tracking-wide hover:font-medium duration-300'>NetZero</span>
                         <span className='px-1 py-1 hidden group-hover:block duration-300 text-xl md:text-2xl lg:text-4xl'>Product design and branding for a home energy management app </span>
-                    </CustomLink> */}
+                    </CustomLink>
 
                     <CustomLink className='group -mt-8 hover:text-gray-600' to='../pages/DoodleLabs2'>
                         <span className='text-4xl md:text-6xl lg:text-7xl ease-in-out tracking-tighter hover:tracking-wide hover:font-medium duration-300'>Doodle Labs</span>

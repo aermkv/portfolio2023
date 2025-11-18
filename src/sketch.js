@@ -199,7 +199,7 @@ function sketch(p) {
       this.p.rectMode(p.CENTER);
       this.p.noStroke();
       this.p.fill(this.col);
-      this.p.rect(this.x,this.y,this.size);
+      this.p.circle(this.x,this.y,this.size);
     }
   
     update() {

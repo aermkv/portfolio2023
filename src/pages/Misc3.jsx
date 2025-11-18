@@ -172,7 +172,7 @@ function Misc3() {
 
       {/* ////////// NETZERO */}
 
-      <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid md:grid-cols-3 gap-16'>
+      {/* <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid md:grid-cols-3 gap-16'>
         <div className='flex flex-col w-full col-span-2'>
           <h2 className='pt-2 md:pt-4 text-2xl lg:text-3xl font-semibold'>NetZero Logo</h2>
           <p className='pt-2 md:pt-4'>My process in designing a logo for a combined solar and EV energy use and storage tracking application.</p>
@@ -217,7 +217,7 @@ function Misc3() {
 
       <div className='py-8'>
         <div className='rounded-md border-2 border-black'></div>
-      </div>
+      </div> */}
 
       <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid md:grid-cols-3 gap-16'>
         <div className='flex flex-col w-full col-span-2'>
@@ -316,7 +316,7 @@ function Misc3() {
       <div className='py-12 w-full max-w-[1240px] mx-auto px-12 md:px-16 grid md:grid-cols-3 gap-8'>
       <CustomLink to='/'>
         <div className='md:col-span-2 text-justify border-black border-2 hover:text-white hover:bg-black duration-300'>
-          <p className='mx-2 my-2 text-sm lg:text-xl'>return to home</p>
+          <h4 className='mx-2 my-2 text-sm lg:text-xl'>return to home</h4>
         </div>
       </CustomLink>
     </div>

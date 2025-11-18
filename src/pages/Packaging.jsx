@@ -33,6 +33,9 @@ import Tzumi2 from '../assets/images/Tzumi2.png'
 import GateauMain from '../assets/images/GateauMain.png'
 import GateauAlt from '../assets/images/GateauAlt.png'
 
+import oscafebrand from '../assets/images/oscafebrand.jpg'
+import oscafebags from '../assets/images/oscafebags.jpg'
+
 function Packaging() {
   return (
     <div className='w-screen'>
@@ -181,11 +184,26 @@ function Packaging() {
       <div className='w-full max-w-[1240px] mx-auto pt-8 md:pt-12 py-2 md:py-4 px-12 md:px-16 grid md:grid-cols-3 gap-8'>
         <div className='md:col-span-2'>
           <p className=''>In my early days of freelancing (mostly while still in school), I worked on a variety of projects, some of which never got produced. I learned to work with different dielines, how to work with Canadian and U.S. information requirements, and the technical aspects of artwork that goes into print.</p>
-          <p className='pt-4'>Gateau Royal was my first packaging project to go into wide circulation in Canadian stores.</p>
+          {/* <p className='pt-4'>Gateau Royal was my first packaging project to go into wide circulation in Canadian stores.</p> */}
         </div>
       </div>
 
-      <div className='w-full max-w-[1240px] mx-auto pt-8 md:pt-12 py-2 md:py-4 px-12 md:px-16 flex flex-col sm:flex-row gap-8'>
+      <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16'>
+        <div className='flex flex-col w-full col-span-2'>
+          <img className='rounded-md' src={oscafebrand} alt='OS Cafe Branding' />
+          <p className='pt-4 text-xs lg:text-sm text-zinc-600'>Rebrand for a Brooklyn coffee shop and roaster.</p>
+        </div>
+      </div>
+
+      <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16'>
+        <div className='flex flex-col w-full col-span-2'>
+          <img className='rounded-md' src={oscafebags} alt='OS Cafe Coffee Bags' />
+          <p className='pt-4 text-xs lg:text-sm text-zinc-600'>Distinct, but consitent packaging for ground coffee / whole beans.</p>
+        </div>
+      </div>
+
+      <p className='w-full max-w-[1240px] mx-auto pt-4 md:py-8 px-12 md:px-16'>Gateau Royal was my first packaging project to go into wide circulation in Canadian stores.</p>
+      <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 flex flex-col sm:flex-row gap-8'>
         <div className=''>
           <img className='rounded-md' src={GateauMain} alt='Gateau final' />
           <p className='pt-4 text-xs text-left lg:text-sm text-zinc-600'>Final product.</p> 
@@ -196,7 +214,8 @@ function Packaging() {
         </div>
       </div>
 
-      <div className='w-full max-w-[1240px] mx-auto pt-8 md:pt-12 py-2 md:py-4 px-12 md:px-16 flex flex-col md:flex-row gap-8'>
+      <p className='w-full max-w-[1240px] mx-auto pt-4 md:py-8 px-12 md:px-16'>Various freelance packaging mockups.</p>
+      <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 flex flex-col md:flex-row gap-8'>
         <div className='flex flex-col'>
           <img className='drop-shadow-md rounded-md hover:drop-shadow-lg duration-300' src={MiscPack1} alt='Misc Packaging 1' />
         </div>
@@ -226,7 +245,7 @@ function Packaging() {
       <div className='py-12 w-full max-w-[1240px] mx-auto px-12 md:px-16 grid md:grid-cols-3 gap-8'>
         <CustomLink to='/'>
           <div className='md:col-span-2 text-justify border-black border-2 hover:text-white hover:bg-black duration-300'>
-            <p className='mx-2 my-2 text-sm lg:text-xl'>return to home</p>
+            <h4 className='mx-2 my-2 text-sm lg:text-xl'>return to home</h4>
           </div>
         </CustomLink>
       </div>

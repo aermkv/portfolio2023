@@ -82,7 +82,7 @@ function sketch2(p) {
   p.defineGrid = function() {
     gridPoints = [];
     let size = 5;
-    let colSize = 3*size;
+    let colSize = 7*size;
     let numCols = p.floor(p.windowWidth/colSize);
     let numRows = p.floor(p.windowHeight/colSize);
     let highlight = p.color(255, 132, 0);
@@ -216,28 +216,28 @@ function sketch2(p) {
   
     show() {
 
-      // let dx = this.x - p.mouseX;
-      // let dy = this.y - p.mouseY;
-      // let d = p.dist(p.mouseX, p.mouseY, this.x, this.y);
-      // if (d < 0.001) d = 0.001;
+      let dx = this.x - p.mouseX;
+      let dy = this.y - p.mouseY;
+      let d = p.dist(p.mouseX, p.mouseY, this.x, this.y);
+      if (d < 0.001) d = 0.001;
 
-      // let maxOffset = 15;
-      // let offsetMag = p.map(d, 0, p.windowHeight/2, maxOffset, 0, true);
+      let maxOffset = 15;
+      let offsetMag = p.map(d, 0, p.windowHeight/2, maxOffset, 0, true);
 
-      // let ox = (dx / d) * offsetMag;
-      // let oy = (dy / d) * offsetMag;
+      let ox = (dx / d) * offsetMag;
+      let oy = (dy / d) * offsetMag;
 
-      // let sx = this.x + ox;
-      // let sy = this.y + oy;
+      let sx = this.x + ox;
+      let sy = this.y + oy;
 
       let shadowS = 3;
       let shadowB = 77; 
-      let shadowA = 0.3;
+      let shadowA = 0.1;
 
       p.noStroke();
-      // p.fill(p.color(currentHue, shadowS, shadowB, shadowA));
-      // p.fill(p.color(currentHue, shadowS, shadowB, shadowA));
-      // p.circle(sx, sy, this.size * 1.2);
+      p.fill(p.color(currentHue, shadowS, shadowB, shadowA));
+      p.fill(p.color(currentHue, shadowS, shadowB, shadowA));
+      p.circle(sx, sy, this.size * 1.2);
 
       this.p.rectMode(p.CENTER);
       this.p.noStroke();
@@ -311,7 +311,7 @@ function sketch2(p) {
     
       let pointS = 5;
       let pointB = 65;
-      this.col = this.p.color(currentHue, pointS, pointB, .5);
+      this.col = this.p.color(currentHue, pointS, pointB, .3);
     }
   
     run() {

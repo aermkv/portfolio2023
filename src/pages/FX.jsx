@@ -15,6 +15,7 @@ import FXAction from '../assets/images/FXAction.png'
 import FXLandingMockup from '../assets/images/FXLandingMockup.png'
 
 import cabcad from '../assets/images/cab-cad.mp4'
+import screen_record_prototype from '../assets/images/screen-record-prototype.mp4'
 
 function FX() {
   return (
@@ -87,7 +88,7 @@ function FX() {
 
       <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid md:grid-cols-3 gap-16'>
         <div className='flex flex-col w-full col-span-2'>
-          <p className='py-2 md:py-4'>More recently, the plan has been to build a more universal configurator that can be adapted for various products and applications. I have been designing and prototyping a simple, clean, functional UI that will adapt easily to new developments.</p>
+          <p className='py-2 md:py-4'>Most recently, I led design and development of an outdoor cabinetry configurator that aligned with established FrameXpert principles. Below is an unbranded medium fidelity prototype showing the easy, intuitive UX and a UI designed to be user-friendly for those who may struggle with traditional CAD tools. The goal is to offer a configurator that does not require user training and works around the usual limitations of customer-facing configurators for complex products. The product's advantage over competitors is measured the time it takes to assemble a build and the quality of the visualization, beating existing competitors in both criteria.</p>
         </div>
         <div className='flex flex-col w-full'>
 
@@ -96,7 +97,7 @@ function FX() {
 
       <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid'>
         <div className='flex flex-col w-full'>
-          <video src={cabcad} type="video/mp4" autoPlay loop playsInline className='rounded-md' />
+          <video src={screen_record_prototype} type="video/mp4" autoPlay loop playsInline className='rounded-md' />
         </div>
       </div>
 

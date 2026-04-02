@@ -52,20 +52,17 @@ function TypedSubtitle({ text, visible }) {
     const [displayed, setDisplayed] = useState('');
 
     useEffect(() => {
-        let timeout;
-        if (visible) {
-            if (displayed.length < text.length) {
-                timeout = setTimeout(() => setDisplayed(text.slice(0, displayed.length + 1)), 12);
-            }
-        } else {
-            if (displayed.length > 0) {
-                timeout = setTimeout(() => setDisplayed(d => d.slice(0, -1)), 5);
-            }
+        if (!visible) {
+            setDisplayed('');
+            return;
         }
-        return () => clearTimeout(timeout);
+        if (displayed.length < text.length) {
+            const timeout = setTimeout(() => setDisplayed(text.slice(0, displayed.length + 1)), 5);
+            return () => clearTimeout(timeout);
+        }
     }, [visible, displayed, text]);
 
-    if (!visible && displayed.length === 0) return null;
+    if (!visible) return null;
 
     return (
         <span className='px-1 py-1 block text-xl md:text-2xl lg:text-4xl'>

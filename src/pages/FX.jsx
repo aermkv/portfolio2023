@@ -102,7 +102,7 @@ function FX() {
 
       <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid md:grid-cols-3 md:gap-16'>
         <div className='flex flex-col w-full col-span-2'>
-          <p className='py-2 md:py-4'>The goal is to offer a configurator that does not require user training and works around the usual limitations of customer-facing configurators for complex products. The product's advantage over competitors is measured the time it takes to assemble a build and the quality of the visualization, beating existing competitors in both criteria.</p>
+          <p className='py-2 md:py-4'>The goal is to offer a configurator that does not require user training and works around the usual limitations of customer-facing configurators for complex products. The product's advantage over competitors is measured by the time it takes to assemble a build and the quality of the visualization, beating existing competitors in both criteria.</p>
         </div>
         <div className='flex flex-col w-full'>
         </div>

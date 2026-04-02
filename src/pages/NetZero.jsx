@@ -27,7 +27,7 @@ function NetZero() {
     <div className='w-screen'>
 
       <CustomLink to='/'>
-        <div className='fixed mr-4 px-4 z-10 h-screen w-16 hover:bg-black duration-300'>
+        <div className='hidden md:block fixed mr-4 px-4 z-10 h-screen w-16 hover:bg-black duration-300'>
           <img className='fixed left-0 top-6 -ml-2 px-4 h-[2.7rem] w-[4.5rem]' src={BackArrow} />
         </div>
       </CustomLink>
@@ -102,14 +102,14 @@ function NetZero() {
       </div>
 
       <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid md:grid-cols-3 grid-cols-1 gap-16'>
-        <div className='flex flex-col w-full'>
-
+        <div className='flex flex-col w-full justify-center'>
+          <p className='py-2 md:py-4'>My product design experience has taught me the importance of walking new users through key features and processes without being overbearing.</p>
         </div>
         <div className='flex flex-col w-full md:px-0 px-[15%]'>
           <video className='drop-shadow-xl rounded-md' src={nzWelcomePrototype} type="video/mp4" autoPlay loop muted playsInline />
         </div>
         <div className='flex flex-col w-full col-span-1 justify-center'>
-          <p className='py-2 md:py-4'>A simple but attractive welcome carousel that guuides new users through the functions and features available in the application.</p>
+          <p className='py-2 md:py-4'>A simple but attractive welcome carousel guides new NetZero users through the functions and features available in the application.</p>
         </div>
       </div>
 

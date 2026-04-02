@@ -22,7 +22,7 @@ function FX() {
     <div className='w-screen'>
 
       <CustomLink to='/'>
-        <div className='fixed mr-4 px-4 z-10 h-screen w-16 hover:bg-black duration-300'>
+        <div className='hidden md:block fixed mr-4 px-4 z-10 h-screen w-16 hover:bg-black duration-300'>
           <img className='fixed left-0 top-6 -ml-2 px-4 h-[2.7rem] w-[4.5rem]' src={BackArrow} />
         </div>
       </CustomLink>

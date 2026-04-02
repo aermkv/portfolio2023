@@ -26,8 +26,8 @@ function sketch2(p) {
 
   p.setup = function() {
     p.createCanvas(p.windowWidth, p.windowHeight)
-    p.defineGrid()
     p.colorMode(p.HSB, 360, 100, 100, 1);
+    p.defineGrid()
     rectX = p.width*.01;
     rectY = p.height*.01;
     rectW = p.width*.99;
@@ -52,21 +52,6 @@ function sketch2(p) {
     p.bouncingBall3();
     p.bouncingBall4();
     p.grid();
-
-    // let bgS = 25;
-    // let bgB = 95;
-    // p.background(currentHue, bgS, bgB, 1);
-
-    let t = p.millis() * 0.00005;
-    let wave = (p.sin(t) + 1) / 2; 
-
-    let hueMin = 140;
-    let hueMax = 220;
-    // currentHue = p.lerp(hueMin, hueMax, wave);
-    // currentHue = (185)
-
-    p.grid()
-    console.log(p.frameRate())
   }
 
   p.windowResized = function() {
@@ -104,71 +89,31 @@ function sketch2(p) {
   }
 
   p.bouncingBall = function() {
-    //p.fill(255,132,0);
-    p.noFill()
-    p.noStroke();
-    p.ellipse(ballX, ballY, r);
     ballX += xspeed;
     ballY += yspeed;
-    angle += p.radians(3);
-    if (ballX > rectW || ballX < rectX) {
-      xspeed = -xspeed;
-    }
-    if (ballY > rectH || ballY < rectY) {
-      yspeed = -yspeed;
-    }
-    return {ballX, ballY};
+    if (ballX > rectW || ballX < rectX) xspeed = -xspeed;
+    if (ballY > rectH || ballY < rectY) yspeed = -yspeed;
   }
 
   p.bouncingBall2 = function() {
-    //p.fill(255,132,0);
-    p.noFill()
-    p.noStroke();
-    p.ellipse(ballX2, ballY2, r);
     ballX2 += xspeed2;
     ballY2 += yspeed2;
-    angle2 += p.radians(3);
-    if (ballX2 > rectW || ballX2 < rectX) {
-      xspeed2 = -xspeed2;
-    }
-    if (ballY2 > rectH || ballY2 < rectY) {
-      yspeed2 = -yspeed2;
-    }
-    return {ballX2, ballY2};
+    if (ballX2 > rectW || ballX2 < rectX) xspeed2 = -xspeed2;
+    if (ballY2 > rectH || ballY2 < rectY) yspeed2 = -yspeed2;
   }
 
   p.bouncingBall3 = function() {
-    //p.fill(255,132,0);
-    p.noFill()
-    p.noStroke();
-    p.ellipse(ballX3, ballY3, r);
     ballX3 += xspeed3;
     ballY3 += yspeed3;
-    angle3 += p.radians(3);
-    if (ballX3 > rectW || ballX3 < rectX) {
-      xspeed3 = -xspeed3;
-    }
-    if (ballY3 > rectH || ballY3 < rectY) {
-      yspeed3 = -yspeed3;
-    }
-    return {ballX3, ballY3};
+    if (ballX3 > rectW || ballX3 < rectX) xspeed3 = -xspeed3;
+    if (ballY3 > rectH || ballY3 < rectY) yspeed3 = -yspeed3;
   }
 
   p.bouncingBall4 = function() {
-    //p.fill(255,132,0);
-    p.noFill()
-    p.noStroke();
-    p.ellipse(ballX4, ballY4, r);
     ballX4 += xspeed4;
     ballY4 += yspeed4;
-    angle4 += p.radians(3);
-    if (ballX4 > rectW || ballX4 < rectX) {
-      xspeed4 = -xspeed4;
-    }
-    if (ballY4 > rectH || ballY4 < rectY) {
-      yspeed4 = -yspeed4;
-    }
-    return {ballX4, ballY4};
+    if (ballX4 > rectW || ballX4 < rectX) xspeed4 = -xspeed4;
+    if (ballY4 > rectH || ballY4 < rectY) yspeed4 = -yspeed4;
   }
 
   // p.grid = function(ballX, ballY) {
@@ -212,6 +157,8 @@ function sketch2(p) {
       this.baseCol = col1;
       this.highlight = col2;
       this.col = col1;
+      this.shadowCol = p.color(currentHue, 3, 77, 0.1);
+      this.col = p.color(currentHue, 5, 65, 0.3);
     }
   
     show() {
@@ -230,13 +177,8 @@ function sketch2(p) {
       let sx = this.x + ox;
       let sy = this.y + oy;
 
-      let shadowS = 3;
-      let shadowB = 77; 
-      let shadowA = 0.1;
-
       p.noStroke();
-      p.fill(p.color(currentHue, shadowS, shadowB, shadowA));
-      p.fill(p.color(currentHue, shadowS, shadowB, shadowA));
+      p.fill(this.shadowCol);
       p.circle(sx, sy, this.size * 1.2);
 
       this.p.rectMode(p.CENTER);
@@ -308,10 +250,6 @@ function sketch2(p) {
       // this.col = p.lerpColor(this.baseCol,this.highlight,lerpVal);
 
       this.size = fromMouse < limit ? this.p.map(fromMouse,limit,0,baseSize,baseSize/5) * totalAdj : baseSize * totalAdj;
-    
-      let pointS = 5;
-      let pointB = 65;
-      this.col = this.p.color(currentHue, pointS, pointB, .3);
     }
   
     run() {

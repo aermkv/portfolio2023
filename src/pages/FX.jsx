@@ -88,7 +88,7 @@ function FX() {
 
       <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid md:grid-cols-3 md:gap-16'>
         <div className='flex flex-col w-full col-span-2'>
-          <p className='py-2 md:py-4'>Most recently, I led design and development of an outdoor cabinetry configurator that aligned with established FrameXpert principles. Below iswhite label medium fidelity prototype focused on showing key features and the easy, intuitive UX with a UI designed to be user-friendly for those who may struggle with traditional CAD tools.</p>
+          <p className='py-2 md:py-4'>Most recently, I led design and development of an outdoor cabinetry configurator that aligned with established FrameXpert principles. Below is a white label, medium fidelity prototype focused on showing key features and the easy, intuitive UX with a UI designed to be user-friendly for those who may struggle with traditional CAD tools.</p>
         </div>
         <div className='flex flex-col w-full'>
         </div>

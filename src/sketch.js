@@ -195,8 +195,8 @@ function sketch(p) {
       let baseSize = 2.6;
       let maxMult = 3.4;
       if (p.width < 640) {
-        baseSize = 1.2
-        maxMult = 5
+        baseSize = 1.35
+        maxMult = 3.5
       }
 
       let totalAdj = (ballAdj * ballAdj2 * ballAdj3 * ballAdj4) > maxMult ? maxMult : ballAdj * ballAdj2 * ballAdj3 * ballAdj4;

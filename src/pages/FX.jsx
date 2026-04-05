@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import { Link, useMatch, useResolvedPath } from 'react-router-dom'
 
 import BackArrow from '../assets/images/BackArrow.png'
@@ -88,16 +88,30 @@ function FX() {
 
       <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid md:grid-cols-3 md:gap-16'>
         <div className='flex flex-col w-full col-span-2'>
-          <p className='py-2 md:py-4'>Most recently, I led design and development of an outdoor cabinetry configurator that aligned with established FrameXpert principles. Below is a white label, medium fidelity prototype focused on showing key features and the easy, intuitive UX with a UI designed to be user-friendly for those who may struggle with traditional CAD tools.</p>
+          <p className='py-2 md:py-4'>Most recently, I led design and development of an outdoor cabinetry configurator that aligned with established FrameXpert principles. Below is an early prototype focused on showing key features and the easy, intuitive UX with a UI designed to be user-friendly for those who may struggle with traditional CAD tools.</p>
         </div>
         <div className='flex flex-col w-full'>
         </div>
       </div>
 
-      <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid'>
-        <div className='flex flex-col w-full'>
-          <video src={screen_record_prototype} type="video/mp4" autoPlay loop playsInline className='rounded-md' />
+      <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16'>
+        <ScaledIframe src="https://embed.figma.com/proto/sxEGu4jE4FYQ843qMtkEDN/Cab-Cad-Prototyping?page-id=400%3A421&node-id=400-422&viewport=147%2C167%2C0.41&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=400%3A422&embed-host=share" frameWidth={1728} frameHeight={1117} />
+      </div>
+
+      <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid md:grid-cols-3 md:gap-16'>
+        <div className='flex flex-col w-full col-span-2'>
+          <p className='py-2 md:py-4'>Based on the above, I created a working white label, medium fidelity prototype with partial functionality for UX and QA testing. Please note that if you are viewing this page on mobile, you will see a video recording instead of the interactive prorotype.</p>
         </div>
+        <div className='flex flex-col w-full'>
+        </div>
+      </div>
+
+      <div className='hidden md:block w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16'>
+        <ScaledIframe src="https://aermkv.github.io/cabinetsdemo/" frameWidth={1728} frameHeight={1117} />
+      </div>
+
+      <div className='md:hidden w-full max-w-[1240px] mx-auto py-2 px-12'>
+        <video src={screen_record_prototype} type="video/mp4" autoPlay loop playsInline className='rounded-md' />
       </div>
 
       <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid md:grid-cols-3 md:gap-16'>
@@ -119,6 +133,37 @@ function FX() {
 
     </div>
   )
+}
+
+function ScaledIframe({ src, frameWidth, frameHeight }) {
+  const containerRef = useRef(null);
+  const [scale, setScale] = useState(1);
+
+  useEffect(() => {
+    const updateScale = () => {
+      if (!containerRef.current) return;
+      setScale(containerRef.current.offsetWidth / frameWidth);
+    };
+    updateScale();
+    window.addEventListener('resize', updateScale);
+    return () => window.removeEventListener('resize', updateScale);
+  }, [frameWidth]);
+
+  return (
+    <div ref={containerRef} style={{ height: scale * frameHeight, overflow: 'hidden' }} className='rounded-md'>
+      <iframe
+        src={src}
+        allowFullScreen
+        style={{
+          width: frameWidth,
+          height: frameHeight,
+          transform: `scale(${scale})`,
+          transformOrigin: 'top left',
+          border: 'none',
+        }}
+      />
+    </div>
+  );
 }
 
 function CustomLink({to, children, ...props }) {

@@ -1,13 +1,33 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import { Link, useMatch, useResolvedPath } from 'react-router-dom'
 
 const WorkNav = () => {
+  const containerRef = useRef(null);
+  const [scale, setScale] = useState(1);
+
+  useEffect(() => {
+    const updateScale = () => {
+      if (!containerRef.current) return;
+      const vh = window.innerHeight;
+      const contentHeight = containerRef.current.scrollHeight;
+      setScale(contentHeight > vh ? vh / contentHeight : 1);
+    };
+    updateScale();
+    window.addEventListener('resize', updateScale);
+    return () => window.removeEventListener('resize', updateScale);
+  }, []);
+
   return (
-    <div className='z-[1] w-full py-2 px-2'>
+    <div
+      ref={containerRef}
+      className='z-[1] w-full py-2 px-2'
+      style={{ transform: `scale(${scale})`, transformOrigin: 'top left' }}
+    >
         <div className='w-full grid grid-cols-1 gap-16'>
             <div className='w-full'>
                 <ul>
                     <span className='mt-0 text-4xl md:text-6xl lg:text-7xl font-medium text-gray-600 hover:cursor-default'>Anton Ermakov</span>
+                    <AutoTypedSubtitle text='Multidisciplinary designer focused on building thoughtful, brand-driven product experiences, with a skill set that ranges from traditional print design to the latest AI-powered tools.' />
 
                     <CustomLink className='group -mt-8 hover:text-gray-600' to='../pages/Danver' subtitle='Visual designer for a luxury outdoor kitchen manufacturer'>
                         <span className='text-4xl md:text-6xl lg:text-7xl ease-in-out tracking-tighter hover:tracking-wide hover:font-medium duration-300'>Danver</span>
@@ -45,6 +65,24 @@ const WorkNav = () => {
         </div>
     </div>
   )
+}
+
+// Types in on page load and stays
+function AutoTypedSubtitle({ text }) {
+    const [displayed, setDisplayed] = useState('');
+
+    useEffect(() => {
+        if (displayed.length < text.length) {
+            const timeout = setTimeout(() => setDisplayed(text.slice(0, displayed.length + 1)), 5);
+            return () => clearTimeout(timeout);
+        }
+    }, [displayed, text]);
+
+    return (
+        <span className='px-1 py-1 block text-xl md:text-2xl lg:text-4xl'>
+            {displayed}
+        </span>
+    );
 }
 
 // Types in on hover, deletes on mouse leave

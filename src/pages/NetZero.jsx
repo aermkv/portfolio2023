@@ -144,7 +144,7 @@ function NetZero() {
       <p className='w-full max-w-[1240px] mx-auto py-4 md:py-8 px-12 md:px-16'>Simple flow showing two examples of setting automations.</p>
       <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16'>
         <div className='flex flex-col w-full col-span-2'>
-          <img className='rounded-md' src={nzflow} alt='Automation Set Flow' />
+          <img className='py-4 rounded-md' src={nzflow} alt='Automation Set Flow' />
           {/* <p className='pt-4 text-xs lg:text-sm text-zinc-600'>Simple flow for setting automations.</p> */}
         </div>
       </div>

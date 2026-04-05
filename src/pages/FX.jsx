@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react'
+import React from 'react'
 import { Link, useMatch, useResolvedPath } from 'react-router-dom'
 
 import BackArrow from '../assets/images/BackArrow.png'
@@ -37,11 +37,11 @@ function FX() {
       <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid md:grid-cols-2 gap-16'>
         <div className='flex flex-col w-full'>
           <h2 className='pt-2 md:pt-4 text-2xl lg:text-3xl font-semibold'>Framexpert</h2>
-          <p className='pt-2 md:pt-4'>FramExpert provides strong and versatile 3D CAD and configurator solutions that rely on an intuitive UX and UI to facilitate use by untrained users who are not comfortable withing traditional CAD software. Initially, FrameXpert partnered with MayTec to use the latter's parts catalogue and manufacturing facilities to deliver custom T-slot aluminum frame designs. The product is a 3D CAD application that allows customers to build their designs, have them reviewed by an expert, and have them shipped to their door with detailed assembly instructions. Today, the company has spread to other industries.</p>
+          <p className='pt-2 md:pt-4'>FramExpert builds powerful 3D CAD and configurator solutions with a focus on intuitive UX and UI design, making complex design workflows accessible to users without traditional CAD expertise. Our products have provided clients with a 16x increase in quotes and over 30% increases in sales.</p>
         </div>
         <div className='flex flex-col w-full'>
           <h2 className='pt-2 md:pt-4 text-2xl lg:text-3xl font-semibold'>My Role</h2>
-          <p className='py-2 md:py-4'>I have been involved with FrameXpert on a regular basis for over a decade, providing designs for the various in-app components as well as branding and incidental design work. More recently, I've taken on a leading role in the design and development of new products that bring together FrameXpert's expertise with the latest developments in graphics processing and AI technologies to provide clients with the fastest, advanced, and intuitive solutions for their products. Our products have helpred clients multiply their incoming quotes by 16 and increase sales by over 30%.</p>
+          <p className='py-2 md:py-4'>I have been involved with FrameXpert on a regular basis for over a decade as a graphic and product designer. More recently, I've taken on a leading role in the design and development of new products that bring together FrameXpert's expertise with the latest developments in graphics processing and AI technologies.</p>
         </div>
       </div>
 
@@ -57,28 +57,37 @@ function FX() {
         </div>
       </div>
 
-      <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16'>
+      {/* <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16'>
         <ScaledIframe src="https://embed.figma.com/proto/sxEGu4jE4FYQ843qMtkEDN/Cab-Cad-Prototyping?page-id=400%3A421&node-id=400-422&viewport=147%2C167%2C0.41&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=400%3A422&embed-host=share" frameWidth={1728} frameHeight={1117} />
-      </div>
+      </div> */}
 
-      <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid md:grid-cols-3 md:gap-16'>
+      {/* <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid md:grid-cols-3 md:gap-16'>
         <div className='flex flex-col w-full col-span-2'>
           <p className='py-2 md:py-4'>Based on the above, I created a working white label, medium fidelity prototype with partial functionality for UX and QA testing. Please note that if you are viewing this page on mobile, you will see a video recording instead of the interactive prorotype.</p>
         </div>
         <div className='flex flex-col w-full'>
         </div>
-      </div>
+      </div> */}
 
-      <div className='hidden md:block w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16'>
+      {/* <div className='hidden md:block w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16'>
         <ScaledIframe src="https://aermkv.github.io/cabinetsdemo/" frameWidth={1728} frameHeight={1117} />
+      </div> */}
+
+      <div className='w-full max-w-[1240px] mx-auto py-2 px-12'>
+        <video src={screen_record_prototype} type="video/mp4" autoPlay loop muted playsInline className='rounded-md' />
       </div>
 
-      <div className='md:hidden w-full max-w-[1240px] mx-auto py-2 px-12'>
-        <video src={screen_record_prototype} type="video/mp4" autoPlay loop playsInline className='rounded-md' />
-      </div>
+      {/* <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid md:grid-cols-3 md:gap-16'>
+        <div className='flex flex-col w-full col-span-2'>
+          <p className='py-2 md:py-4'>Feel free to <a href="https://aermkv.github.io/cabinetsdemo/" target="blank" rel="noopener" className="underline">try out a working prototype</a> or <a href="https://www.figma.com/proto/sxEGu4jE4FYQ843qMtkEDN/Cab-Cad-Prototyping?page-id=400%3A421&node-id=400-422&viewport=147%2C167%2C0.41&t=bVLnPpFGqTxAcruN-1&scaling=contain&content-scaling=responsive&starting-point-node-id=400%3A422" target="blank" rel="noopener" className="underline">view an early Figma prototype</a>.</p>
+        </div>
+        <div className='flex flex-col w-full'>
+        </div>
+      </div> */}
 
       <div className='w-full max-w-[1240px] mx-auto py-2 md:py-4 px-12 md:px-16 grid md:grid-cols-3 md:gap-16'>
         <div className='flex flex-col w-full col-span-2'>
+          <p className='py-2 md:py-4'>Feel free to <a href="https://aermkv.github.io/cabinetsdemo/" target="blank" rel="noopener" className="underline">try out a working prototype</a> or  peek into the process and <a href="https://www.figma.com/proto/sxEGu4jE4FYQ843qMtkEDN/Cab-Cad-Prototyping?page-id=400%3A421&node-id=400-422&viewport=147%2C167%2C0.41&t=bVLnPpFGqTxAcruN-1&scaling=contain&content-scaling=responsive&starting-point-node-id=400%3A422" target="blank" rel="noopener" className="underline">view an early Figma prototype</a>.</p>
           <p className='py-2 md:py-4'>The goal is to offer a configurator that does not require user training and works around the usual limitations of customer-facing configurators for complex products. The product's advantage over competitors is measured by the time it takes to assemble a build and the quality of the visualization, beating existing competitors in both criteria.</p>
         </div>
         <div className='flex flex-col w-full'>
@@ -137,36 +146,6 @@ function FX() {
   )
 }
 
-function ScaledIframe({ src, frameWidth, frameHeight }) {
-  const containerRef = useRef(null);
-  const [scale, setScale] = useState(1);
-
-  useEffect(() => {
-    const updateScale = () => {
-      if (!containerRef.current) return;
-      setScale(containerRef.current.offsetWidth / frameWidth);
-    };
-    updateScale();
-    window.addEventListener('resize', updateScale);
-    return () => window.removeEventListener('resize', updateScale);
-  }, [frameWidth]);
-
-  return (
-    <div ref={containerRef} style={{ height: scale * frameHeight, overflow: 'hidden' }} className='rounded-md'>
-      <iframe
-        src={src}
-        allowFullScreen
-        style={{
-          width: frameWidth,
-          height: frameHeight,
-          transform: `scale(${scale})`,
-          transformOrigin: 'top left',
-          border: 'none',
-        }}
-      />
-    </div>
-  );
-}
 
 function CustomLink({to, children, ...props }) {
   const resolvedPath = useResolvedPath(to)

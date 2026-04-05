@@ -30,7 +30,8 @@
       (function(l) {
         var p = new URLSearchParams(l.search).get('p');
         if (p) {
-          window.history.replaceState(null, null, p + l.hash);
+          var base = l.pathname.replace(/\/$/, '');
+          window.history.replaceState(null, null, base + p + l.hash);
         }
       }(window.location));
     </script>

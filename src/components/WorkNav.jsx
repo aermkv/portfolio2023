@@ -41,6 +41,10 @@ const WorkNav = () => {
                         <span className='text-4xl md:text-6xl lg:text-7xl ease-in-out tracking-tighter hover:tracking-wide hover:font-medium duration-300'>Doodle Labs</span>
                     </CustomLink>
 
+                    <CustomLink className='group -mt-8 hover:text-gray-600' to='../pages/FX' subtitle='UX, UI, and branding for CAD software solutions'>
+                        <span className='text-4xl md:text-6xl lg:text-7xl ease-in-out tracking-tighter hover:tracking-wide hover:font-medium duration-300'>FrameXpert</span>
+                    </CustomLink>
+
                     <CustomLink className='group -mt-8 hover:text-gray-600' to='../pages/Packaging' subtitle='Packaging design across categories'>
                         <span className='text-4xl md:text-6xl lg:text-7xl ease-in-out tracking-tighter hover:tracking-wide hover:font-medium duration-300'>Packaging</span>
                     </CustomLink>
@@ -51,10 +55,6 @@ const WorkNav = () => {
 
                     <CustomLink className='group -mt-8 hover:text-gray-600' to='../pages/Bonsai2' subtitle='Branding and design system for mentorship app'>
                         <span className='text-4xl md:text-6xl lg:text-7xl ease-in-out tracking-tighter hover:tracking-wide hover:font-medium duration-300'>Bonsai</span>
-                    </CustomLink>
-
-                    <CustomLink className='group -mt-8 hover:text-gray-600' to='../pages/FX' subtitle='UX, UI, and branding for CAD software solutions'>
-                        <span className='text-4xl md:text-6xl lg:text-7xl ease-in-out tracking-tighter hover:tracking-wide hover:font-medium duration-300'>FrameXpert</span>
                     </CustomLink>
 
                     <CustomLink className='group -mt-8 hover:text-gray-600' to='../pages/Misc3' subtitle='Album art, 3D, posters, pitch decks, and more'>
